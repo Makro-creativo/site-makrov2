@@ -9,9 +9,9 @@
                               Impulso para <span class="text-orange">crecer.</span>
                           </h1>
                           <p class="text-muted mb-4">
-                              Creamos la página que tú marca necesita.
+                              Creación de Marcas Arquitectura de Marca Re-branding <br> Actualización y renovación de Marcas Registro de Marca.
                           </p>
-                          <div class="btn btn-dark">Nuestro portafolio</div>
+                          <div class="btn btn-dark mt-4">Nuestro portafolio</div>
                       </div>
                   </div>
 
