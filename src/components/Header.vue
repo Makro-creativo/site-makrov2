@@ -5,7 +5,7 @@
               <div class="row">
                   <div class="col-lg-7 d-flex">
                       <div class="align-self-center">
-                          <h1 class="display-4 text-dark font-weight-bold mb-3 typewriter line-text">
+                          <h1 class="display-4 text-dark font-weight-bold mb-3">
                               Impulso para <span class="text-orange">crecer.</span>
                           </h1>
                           <p class="text-muted mb-4">
@@ -60,33 +60,4 @@ export default {
         font-family: 'Poppins', sans-serif;
         font-weight: 400;
     }
-
-    .typewriter {
-      animation: typewriter 4s steps(36) 1s 1 normal both,
-      blinkTextCursor 500ms steps(36) infinite normal;
-    }
-
-    @keyframes typewriter {
-      from {
-            width: 0;
-      }
-      to {
-            width: 12em;
-      }
-    }
-
-    @keyframes blinkTextCursor {
-      from {
-            border-right-color: rgba(255, 255, 255, 0.75);
-      }
-      to {
-            border-right-color: transparent;
-      }
-   }       
-
-   .line-text {
-      border-right: 2px solid rgba(255, 255, 255, 0.75);
-      white-space: nowrap;
-      overflow: hidden;transform: translateY(-50%);
-   }
 </style>
