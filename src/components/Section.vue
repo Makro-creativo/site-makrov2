@@ -21,7 +21,7 @@
                   </div>
 
                   <div class="col-lg-6">
-                   <img src="../assets/img/section.svg" alt="Section imagen" class="img-fluid my-4 section-image">
+                   <img src="../assets/img/fondo_figma.png" alt="Section imagen" class="img-fluid my-4">
                  </div>
               </div>
           </div>
@@ -58,9 +58,5 @@ export default {
         border-radius: 20px;
         font-family: 'Poppins', sans-serif;
         font-weight: 400;
-    }
-
-    .section-image {
-        color: transparent;
     }
 </style>
