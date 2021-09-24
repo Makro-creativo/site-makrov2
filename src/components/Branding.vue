@@ -1,6 +1,6 @@
 <template>
   <div id="branding">
-      <section class="branding-section py-7">
+      <section class="branding-section py-5">
           <h2 class="text-center display-4 mb-4 font-weight-bold title-branding">Branding</h2>
           <hr>
 
@@ -18,7 +18,7 @@
                                       Diagnóstico de Marca y Empresa
                                   </h5>
                                   <hr class="hr-card">
-                                  <p class="card-text">
+                                  <p class="card-text text-muted">
                                       Lorem ipsum dolor sit amet, consectetur
                                       adipiscing Lorem ipsum dolor sit amet,
                                       consectetur adipiscing Lorem ipsum dolor sit 
@@ -41,7 +41,7 @@
                                       esencial para emprendedores
                                   </h5>
                                   <hr class="hr-card">
-                                  <p class="card-text">
+                                  <p class="card-text text-muted">
                                       Lorem ipsum dolor sit amet, consectetur
                                       adipiscing Lorem ipsum dolor sit amet,
                                       consectetur adipiscing Lorem ipsum dolor sit
@@ -68,11 +68,6 @@ export default {
         background-color:#FFFFFF;
     }
 
-    .py-7 {
-        padding-top: 10rem;
-        padding-bottom: 10rem;
-    }
-
     .title-branding {
         color: #000000;
         font-weight: bold;
@@ -89,7 +84,7 @@ export default {
 
     .img-email {
         width: 100px;
-        height: auto;
+        height: 150px;
     }
 
     .card-email {
@@ -106,12 +101,13 @@ export default {
 
     .img-course {
         width: 100px;
-        height: auto;
+        height: 200px;
     }
 
     .card-title {
         color: #FCCE96 !important;
         font-weight: 400;
+        font-family: 'Poppins', sans-serif;
     }
 
     .hr-card {
@@ -120,5 +116,10 @@ export default {
         width: 50%;
         background-color:#F6971B;
         font-weight: bold;
+    }
+
+    .card-text {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
     }
 </style>

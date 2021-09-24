@@ -1,6 +1,6 @@
 <template>
   <div id="how-are">
-      <section class="section-how-are py-7">
+      <section class="section-how-are py-5">
           <div class="container">
               <div class="row py-6 pb-0">
                   <div class="d-flex col-lg-6">
@@ -38,11 +38,6 @@ export default {
 <style scoped>
     .section-how-are {
         background-color: #FFFFFF;
-    }
-
-    .py-7 {
-        padding-top: 10rem;
-        padding-bottom: 10rem;
     }
 
     .title-how-are {
