@@ -5,13 +5,16 @@
               <div class="row">
                   <div class="col-lg-7 d-flex">
                       <div class="align-self-center">
-                          <h1 class="display-4 text-dark font-weight-bold mb-3">
-                              Impulso para <span class="text-orange">crecer.</span>
-                          </h1>
-                          <hr class="hr-title">
+                          <div>
+                            <h1 class="display-4 text-dark font-weight-bold mb-3 effect_machin">
+                              Impulso para <span class="text-orange">crecer.                    </span><span class="cursor">&#160;</span>
+                            </h1>
+                          </div>
+                          
                           <p class="text-muted mb-4">
                               Creación de Marcas Arquitectura de Marca Re-branding <br> Actualización y renovación de Marcas Registro de Marca.
                           </p>
+                          <hr class="hr-title">
                           <div class="btn btn-dark mt-4">Nuestro portafolio</div>
                       </div>
                   </div>
@@ -33,6 +36,31 @@ export default {
 </script>
 
 <style scoped>
+    .effect_machin {
+        float: left;
+        position: relative;
+    }
+
+    .effect_machin .cursor {
+        position: absolute;
+        right: 0;
+        width: 0;
+        background-color: #FFFFFF;
+        border-left: 1px solid #000;
+
+        animation: machine 5s infinite alternate steps(63);
+    }
+
+    @keyframes machine {
+        from {
+            width: 100%;
+        }
+
+        to {
+            width: 0;
+        }
+    }
+
     .py-7 {
         padding-top: 10rem;
         padding-bottom: 1rem;
