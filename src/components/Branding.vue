@@ -86,6 +86,7 @@
                                   <h5 class="card-title">
                                       Cursos Community Manager
                                   </h5>
+                                  <hr class="hr-card">
                                   <p class="card-text">
                                       Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing
                                   </p>
