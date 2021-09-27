@@ -8,6 +8,7 @@
                           <h2 class="display-4 font-weight-bold mb-4 title-how-are">
                               Quienes somos?
                           </h2>
+                          <hr class="hr-title-how-are">
                           <p class="text-muted mb-4">
                               Somos un equipo de creativos profesionales y apasionados por <br>
                               las ventas y el diseño. Y estamos comprometidos en hacer <br>
@@ -53,5 +54,12 @@ export default {
         border-radius: 20px;
         font-family: 'Poppins', sans-serif;
         font-weight: 400;
+    }
+
+    .hr-title-how-are {
+        height: 10px;
+        margin-left: 0%;
+        margin-right: 50%;
+        background-color:#F6971B;
     }
 </style>

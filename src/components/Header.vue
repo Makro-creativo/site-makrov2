@@ -8,6 +8,7 @@
                           <h1 class="display-4 text-dark font-weight-bold mb-3">
                               Impulso para <span class="text-orange">crecer.</span>
                           </h1>
+                          <hr class="hr-title">
                           <p class="text-muted mb-4">
                               Creación de Marcas Arquitectura de Marca Re-branding <br> Actualización y renovación de Marcas Registro de Marca.
                           </p>
@@ -59,5 +60,12 @@ export default {
         border-radius: 15px;
         font-family: 'Poppins', sans-serif;
         font-weight: 400;
+    }
+
+    .hr-title {
+        height: 10px;
+        margin-left: 0%;
+        margin-right: 50%;
+        background-color:#F6971B;
     }
 </style>
