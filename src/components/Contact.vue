@@ -1,7 +1,7 @@
 <template>
   <div>
       <section class="contact-section py-5">
-          <h2 class="display-4 text-center mb-4 font-weight-bold title-services">Nuestros Servicios</h2>
+          <h2 class="display-4 text-center mb-4 font-weight-bold title-services py-3">Nuestros Servicios</h2>
 
           <div class="container">
               <div class="row g-0">
@@ -9,7 +9,7 @@
                       <div class="card shadow-lg p-3 mb-5 bg-body rounded">
                           <img src="../assets/img/ecommerce-icon.gif" alt="Ecommerce servicios" class="img-fluid card-img-top image-ecommerce">
                           <div class="card-body">
-                              <p class="card-text">
+                              <p class="card-text text-muted">
                                   Haga crecer su empresa de comercio electrónico y permítanos ayudarlo a atraer y convertir a más clientes.
                               </p>
                           </div>
@@ -21,7 +21,7 @@
                         <img src="../assets/img/design-web.gif" alt="Diseño web" class="img-fluid card-img-top image-design">
 
                         <div class="card-body">
-                            <p class="card-text">
+                            <p class="card-text text-muted">
                                 Desarrollo y diseño Web a la medida, en Makro Creativo diseñamos Sitios Web 
                                 para tú negocio, desde Landing page, sitios ecommerce y ERP. Ven y te cotizamos.
                             </p>
@@ -34,7 +34,7 @@
                           <img src="../assets/img/video_conference.gif" alt="Video conferencias" class="img-fluid card-img-top image-conference">
 
                           <div class="card-bdy">
-                              <p class="card-text">
+                              <p class="card-text text-muted">
                                   Desarrollamos talleres para los empresarios que van empezando para generarles una 
                                   mejor estrategía de Marketing y de ventas en linea.
                               </p>
@@ -82,5 +82,9 @@ export default {
     .image-conference {
         width: 200px !important;
         height: 200px !important;
+    }
+
+    .card-text {
+        font-family: 'Poppins', sans-serif;
     }
 </style>>
