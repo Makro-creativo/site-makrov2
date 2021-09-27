@@ -3,6 +3,7 @@
     <Header />
     <Section />
     <Branding />
+    <Contact />
   </div>
 </template>
 
@@ -11,6 +12,7 @@
 import Header from '@/components/Header.vue'
 import Section from '@/components/Section.vue'
 import Branding from '@/components/Branding.vue'
+import Contact from '@/components/Contact.vue'
 
 export default {
   name: 'Home',
@@ -18,6 +20,7 @@ export default {
     Header,
     Section,
     Branding,
+    Contact,
   }
 }
 </script>

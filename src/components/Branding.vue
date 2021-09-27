@@ -94,6 +94,46 @@
                           </div>
                       </div>
                   </div>
+
+                  <div class="design-web d-flex justify-content-start">
+                      <div class="card card-course-community shadow-lg p-3 mb-5 bg-body rounded">
+                          <div class="row g-0">
+                              <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 col-xxl-4">
+                                  <div class="blob_5"></div>
+                              </div>
+
+                              <div class="col-md-8 col-sm-12 col-lg-8 col-xl-8-col-xxl-8">
+                                  <h5 class="card-title">
+                                      Mercadoctenia Digital
+                                  </h5>
+                                  <hr class="hr-card">
+                                  <p class="card-text">
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="Mercadoctec d-flex justify-content-end">
+                      <div class="card card-course-community shadow-lg p-3 mb-5 bg-body rounded">
+                          <div class="row g-0">
+                              <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 col-xxl-4">
+                                  <div class="blob_6"></div>
+                              </div>
+
+                              <div class="col-md-8 col-sm-12 col-lg-8 col-xl-8-col-xxl-8">
+                                  <h5 class="card-title">
+                                      Desarrollo de Software
+                                  </h5>
+                                  <hr class="hr-card">
+                                  <p class="card-text">
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
               </div>
           </div>
       </section>
@@ -276,6 +316,60 @@ export default {
         background-size: cover;
         animation: animate 5s linear infinite;
         background-color: #EA95E6;
+    }
+
+    @keyframes animate {
+        0%, 100% {
+            border-radius: 64% 36% 27% 73% / 55% 58% 42% 45%;
+        }
+
+        25% {
+            border-radius: 73% 27% 26% 38% / 73% 36% 64% 27%;
+        }
+
+        50% {
+            border-radius: 28% 72% 44% 56% / 49% 40% 60% 51%;
+        }
+
+        75% {
+            border-radius: 40% 60% 70% 30% / 47% 62% 38% 53%;
+        }
+    }
+
+    .blob_5 {
+        width: 200px;
+        height: 200px;
+        background: url('../assets/img/MAKREC-05.svg');
+        background-size: cover;
+        animation: animate 5s linear infinite;
+        background-color: #F89898;
+    }
+
+    @keyframes animate {
+        0%, 100% {
+            border-radius: 64% 36% 27% 73% / 55% 58% 42% 45%;
+        }
+
+        25% {
+            border-radius: 73% 27% 26% 38% / 73% 36% 64% 27%;
+        }
+
+        50% {
+            border-radius: 28% 72% 44% 56% / 49% 40% 60% 51%;
+        }
+
+        75% {
+            border-radius: 40% 60% 70% 30% / 47% 62% 38% 53%;
+        }
+    }
+
+    .blob_6 {
+        width: 200px;
+        height: 200px;
+        background: url('../assets/img/MAKREC-06.svg');
+        background-size: cover;
+        animation: animate 5s linear infinite;
+        background-color: #BC8BE8;
     }
 
     @keyframes animate {

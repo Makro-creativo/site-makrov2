@@ -6,7 +6,7 @@
                   <div class="col-lg-7 d-flex">
                       <div class="align-self-center">
                           <div>
-                            <h1 class="display-4 text-dark font-weight-bold mb-3 effect_machin">
+                            <h1 class="display-4 title text-dark font-weight-bold mb-3 effect_machin">
                               Impulso para <span class="text-orange">crecer.                    </span><span class="cursor">&#160;</span>
                             </h1>
                           </div>
@@ -36,6 +36,10 @@ export default {
 </script>
 
 <style scoped>
+    .title {
+        line-height: 58px;
+    }
+    
     .effect_machin {
         float: left;
         position: relative;
