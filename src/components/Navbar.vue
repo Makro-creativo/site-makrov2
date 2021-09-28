@@ -43,16 +43,11 @@
 
 <script>
 export default {
-
+    name: 'Navbar',
 }
 </script>
 
 <style scoped>
-    .bg-light {
-        background-color: #FFFFFF !important;
-        font-family: 'Poppins', sans-serif;
-    }
-
     .nav-link {
         color: #000000 !important;
         font-size: 1.2em;

@@ -3,7 +3,7 @@
       <section class="contact-section p-5">
           <div class="container">
               <div class="row g-0">
-                  <div class="col-md-10 col-sm-12 col-lg-10 col-xl-10 col-xxl-10 mx-auto">
+                  <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 mx-auto">
                       <div class="card shadow-lg p-5 mb-5 bg-body rounded">
                           <div class="row">
                               <div class="col-md-7 col-sm-12 col-lg-7 col-xl-7 col-xxl-7">
