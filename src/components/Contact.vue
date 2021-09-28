@@ -4,8 +4,61 @@
           <div class="container">
               <div class="row g-0">
                   <div class="col-md-10 col-sm-12 col-lg-10 col-xl-10 col-xxl-10 mx-auto">
-                      <div class="card shadow-lg p-3 mb-5 bg-body rounded">
+                      <div class="card shadow-lg p-5 mb-5 bg-body rounded">
+                          <div class="row">
+                              <div class="col-md-7 col-sm-12 col-lg-7 col-xl-7 col-xxl-7">
+                                  <h2 class="mb-4 title-contact">Somos el impacto que tú marca necesita!</h2>
+                                  <hr class="hr-card">
 
+                                  <p class="text-muted">
+                                      <img src="../assets/img/phonelink-ring.gif" alt="Télefono empresaria" class="img-fluid phone">
+                                      +52 xxxxxxxx
+                                  </p>
+
+                                  <p class="text-muted">
+                                    <img src="../assets/img/location.gif" alt="Dirección" class="img-fluid addres">
+                                     Avenida los Arcos 937
+                                  </p>
+
+                                  <p class="text-muted">
+                                      <img src="../assets/img/send_email.gif" alt="Correo electronico" class="img-fluid email">
+                                      makrocreativo@gmail.com
+                                  </p>
+
+                                  <p class="text-muted">
+                                      <img src="../assets/img/city.gif" alt="Ciudad" class="img-fluid city">
+                                      Jalisco, México.
+                                  </p>
+
+                                  <a href="#" class="btn btn-outline-primary btn-lg mt-4">Reserva una consulta</a>
+                              </div>
+
+                              <div class="col-md-5 col-sm-12 col-lg-5 col-xl-5 col-xxl-5">
+                                  <h3 class="mb-4 subtitle-form d-flex justify-content-center mt-3">También puedes contactarnos desde aquí</h3>
+
+                                  <form action="">
+                                      <div class="form-group">
+                                          <input type="text" class="form-control" placeholder="Nombre">
+                                      </div>
+
+                                      <div class="form-group mt-4">
+                                          <input type="email" class="form-control" placeholder="Correo electronico">
+                                      </div>
+
+                                      <div class="form-group mt-4">
+                                          <input type="text" class="form-control" placeholder="Tema de la consulta">
+                                      </div>
+
+                                      <div class="form-group mt-4">
+                                          <textarea cols="10" rows="6" class="form-control" placeholder="Mensaje"></textarea>
+                                      </div>
+
+                                      <div class="d-grid gap-2">
+                                          <input type="submit" value="Enviar" class="btn btn-secondary mt-2">
+                                      </div>
+                                  </form>
+                              </div>
+                          </div>
                       </div>
                   </div>
               </div>
@@ -28,5 +81,84 @@ export default {
     .card {
         border: transparent !important;
         border-top: 5px solid #FABB6E !important;
+    }
+
+    .title-contact {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.5em;
+        font-weight: 400;
+    }
+
+    .hr-card {
+        height: 5px;
+        margin-left: 0%;
+        width: 50%;
+        background-color:#F6971B;
+        font-weight: bold;
+    }
+
+    .phone {
+        width: 50px;
+        height: 50px;
+    }
+
+    .addres {
+        width: 50px;
+        height: 50px;
+    }
+
+    .email {
+        width: 50px;
+        height: 50px;
+    }
+
+    .city {
+        width: 50px;
+        height: 50px;
+    }
+
+    .btn-outline-primary {
+        border-color:#FABB6E !important;
+        color: #FABB6E !important;
+        border-radius: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+    }
+
+    .btn-outline-primary:hover {
+        background-color: #FABB6E !important;
+        color: #FFFFFF !important;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+    }
+
+    .subtitle-form {
+        font-size: 1.1em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+    }
+
+    .btn-secondary {
+        background-color: #FABB6E !important;
+        border: transparent !important;
+        border-radius: 10px;
+        padding: .8rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+    }
+
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+    }
+
+    .form-control {
+        padding: .5rem .80rem;
+        border-radius: 10px !important;
+        border: 2px solid #E6E6E6 !important;
+        outline: none !important;
+        font-family: 'Poppins', sans-serif;
+        font-size: .9em;
+        color: #E6E6E6 !important;
     }
 </style>
