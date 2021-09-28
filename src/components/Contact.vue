@@ -30,6 +30,32 @@
                                       Jalisco, México.
                                   </p>
 
+                                  <ul class="list-group list-group-horizontal">
+                                      <li class="list-group-item">
+                                          <a href="#">
+                                            <i class="icon ion-logo-facebook"></i>
+                                          </a>
+                                      </li>
+
+                                      <li class="list-group-item">
+                                          <a href="#">
+                                            <i class="icon ion-logo-twitter"></i>
+                                          </a>
+                                      </li>
+
+                                      <li class="list-group-item">
+                                        <a href="#">
+                                            <i class="icon ion-logo-instagram"></i>
+                                        </a>
+                                      </li>
+
+                                      <li class="list-group-item">
+                                          <a href="#">
+                                            <i class="icon ion-logo-whatsapp"></i>
+                                          </a>
+                                      </li>
+                                  </ul>
+
                                   <a href="#" class="btn btn-outline-primary btn-lg mt-4">Reserva una consulta</a>
                               </div>
 
@@ -50,7 +76,7 @@
                                       </div>
 
                                       <div class="form-group mt-4">
-                                          <textarea cols="10" rows="6" class="form-control" placeholder="Mensaje"></textarea>
+                                          <textarea cols="10" rows="7" class="form-control" placeholder="Mensaje"></textarea>
                                       </div>
 
                                       <div class="d-grid gap-2">
@@ -81,6 +107,10 @@ export default {
     .card {
         border: transparent !important;
         border-top: 5px solid #FABB6E !important;
+        border-bottom-right-radius: 20px !important;
+        border-bottom-left-radius: 20px !important;
+        border-top-left-radius: 20px !important;
+        border-top-right-radius: 20px !important;
     }
 
     .title-contact {
@@ -153,12 +183,36 @@ export default {
     }
 
     .form-control {
-        padding: .5rem .80rem;
+        padding: 15px;
         border-radius: 10px !important;
         border: 2px solid #E6E6E6 !important;
         outline: none !important;
         font-family: 'Poppins', sans-serif;
         font-size: .9em;
         color: #E6E6E6 !important;
+    }
+
+    .ion-logo-facebook {
+        font-size: 1.5em;
+        color: #FAC27C;
+    }
+
+    .ion-logo-twitter {
+        font-size: 1.5em;
+        color: #FAC27C;
+    }
+
+    .ion-logo-instagram {
+        font-size: 1.5em;
+        color: #FAC27C;
+    }
+
+    .ion-logo-whatsapp {
+        font-size: 1.5em;
+        color: #FAC27C;
+    }
+
+    .list-group-item {
+        border: transparent !important;
     }
 </style>
