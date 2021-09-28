@@ -49,10 +49,6 @@ export default {
         font-family: 'Poppins', sans-serif;
     }
 
-    .ion-md-menu {
-        font-size: 1.5em;
-    }
-
     .nav-link {
         color: #000000 !important;
         font-size: 1.2em;
@@ -75,5 +71,14 @@ export default {
         color: #FFFFFF;
         font-weight: 400;
         font-family: 'Poppins', sans-serif;
+    }
+
+    .navbar-toggler {
+        font-size: 40px;
+        border: transparent !important;
+    }
+
+    button.navbar-toggler:focus {
+        outline: none;    
     }
 </style>
