@@ -231,7 +231,7 @@ export default {
     .blob_1 {
         width: 200px;
         height: 200px;
-        background: url('../assets/img/MAKREC_01.svg');
+        background: url('../assets/img/iconos_makro_400x400.svg');
         background-size: cover;
         animation: animate 5s linear infinite;
         background-color:#FABB6E;
@@ -258,7 +258,7 @@ export default {
     .blob_2 {
         width: 200px;
         height: 200px;
-        background: url('../assets/img/MAKREC-02.svg');
+        background: url('../assets/img/iconos_makro_400x400-02.svg');
         background-size: cover;
         animation: animate 5s linear infinite;
         background-color: #AADD78;
@@ -285,7 +285,7 @@ export default {
     .blob_3 {
         width: 200px;
         height: 200px;
-        background: url('../assets/img/MAKREC-03.svg');
+        background: url('../assets/img/iconos_makro_400x400-03.svg');
         background-size: cover;
         animation: animate 5s linear infinite;
         background-color: #67ADE7;
@@ -312,7 +312,7 @@ export default {
     .blob_4 {
         width: 200px;
         height: 200px;
-        background: url('../assets/img/MAKREC-04.svg');
+        background: url('../assets/img/iconos_makro_400x400-04.svg');
         background-size: cover;
         animation: animate 5s linear infinite;
         background-color: #EA95E6;
@@ -339,7 +339,7 @@ export default {
     .blob_5 {
         width: 200px;
         height: 200px;
-        background: url('../assets/img/MAKREC-05.svg');
+        background: url('../assets/img/iconos_makro_400x400-05.svg');
         background-size: cover;
         animation: animate 5s linear infinite;
         background-color: #F89898;
@@ -366,7 +366,7 @@ export default {
     .blob_6 {
         width: 200px;
         height: 200px;
-        background: url('../assets/img/MAKREC-06.svg');
+        background: url('../assets/img/iconos_makro_400x400-06.svg');
         background-size: cover;
         animation: animate 5s linear infinite;
         background-color: #BC8BE8;

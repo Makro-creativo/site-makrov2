@@ -1,13 +1,13 @@
 <template>
   <div>
-      <section class="contact-section py-5">
+      <section class="services-section py-5">
           <h2 class="display-4 text-center mb-4 font-weight-bold title-services py-3">Nuestros Servicios</h2>
 
           <div class="container">
               <div class="row g-0">
                   <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 col-xxl-4 d-flex align-items-stretch">
                       <div class="card shadow-lg p-3 mb-5 bg-body rounded">
-                          <img src="../assets/img/ecommerce-icon.gif" alt="Ecommerce servicios" class="img-fluid card-img-top image-ecommerce">
+                          <img src="../assets/img/ecommerce-makro.gif" alt="Ecommerce servicios" class="img-fluid card-img-top image-ecommerce">
                           <div class="card-body">
                               <p class="card-text text-muted">
                                   Haga crecer su empresa de comercio electrónico y permítanos ayudarlo a atraer y convertir a más clientes.
@@ -18,7 +18,7 @@
 
                   <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 col-xxl-4 d-flex align-items-stretch">
                     <div class="card shadow-lg p-3 mb-5 bg-body rounded">
-                        <img src="../assets/img/design-web.gif" alt="Diseño web" class="img-fluid card-img-top image-design">
+                        <img src="../assets/img/design_makro.gif" alt="Diseño web" class="img-fluid card-img-top image-design">
 
                         <div class="card-body">
                             <p class="card-text text-muted">
@@ -31,12 +31,12 @@
 
                   <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 col-xxl-4 d-flex align-items-stretch">
                       <div class="card shadow-lg p-3 mb-5 bg-body rounded">
-                          <img src="../assets/img/video_conference.gif" alt="Video conferencias" class="img-fluid card-img-top image-conference">
+                          <img src="../assets/img/marketing_makro.gif" alt="Video conferencias" class="img-fluid card-img-top image-conference">
 
                           <div class="card-bdy">
                               <p class="card-text text-muted">
-                                  Desarrollamos talleres para los empresarios que van empezando para generarles una 
-                                  mejor estrategía de Marketing y de ventas en linea.
+                                  Consultoría y capacitación para el manejo Porfesional en todas 
+                                  tus redes sociales
                               </p>
                           </div>
                       </div>
@@ -54,7 +54,7 @@ export default {
 </script>
 
 <style scoped>
-    .contact-section {
+    .services-section {
         background-color: #FFFFFF;
     }
 
@@ -86,5 +86,6 @@ export default {
 
     .card-text {
         font-family: 'Poppins', sans-serif;
+        font-weight: 400;
     }
 </style>>

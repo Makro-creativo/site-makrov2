@@ -4,6 +4,7 @@
     <Section />
     <Branding />
     <Services />
+    <Contact />
   </div>
 </template>
 
@@ -12,7 +13,8 @@
 import Header from '@/components/Header.vue'
 import Section from '@/components/Section.vue'
 import Branding from '@/components/Branding.vue'
-import Contact from '@/components/Services.vue'
+import Services from '@/components/Services.vue'
+import Contact from '@/components/Contact.vue'
 
 export default {
   name: 'Home',
@@ -21,6 +23,7 @@ export default {
     Section,
     Branding,
     Services,
+    Contact,
   }
 }
 </script>
