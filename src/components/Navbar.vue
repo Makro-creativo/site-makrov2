@@ -2,7 +2,7 @@
   <div id="navbar">
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-2 fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/">
                 <img src="../assets/img/logo_makro_creativo_web_color.svg" alt="" width="120" height="100">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,19 +16,23 @@
                     </li>
 
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/nosotros">Nosotros</router-link>
+                        <a href="#how-are" class="nav-link">Nosotros</a>
                     </li>
 
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/branding">Branding</router-link>
+                        <a href="#branding" class="nav-link">Branding</a>
                     </li>
 
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/servicios">Servicios</router-link>
+                        <a href="#services" class="nav-link">Servicios</a>
                     </li>
 
                     <li class="nav-item">
-                        <router-link class="btn btn-outline-primary" to="/contacto">Contacto</router-link>
+                        <router-link class="nav-link" to="/portfolio">Portafolio</router-link>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="btn btn-outline-primary">Contacto</a>
                     </li>
                 </ul>
             </div>

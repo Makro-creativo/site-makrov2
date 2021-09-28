@@ -132,7 +132,7 @@ export default {
 
     .title-footer-services {
         color: #1A140C !important;
-        ont-family: 'Poppins', sans-serif;
+        font-family: 'Poppins', sans-serif;
         font-weight: 400;
     }
 
