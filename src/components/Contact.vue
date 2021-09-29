@@ -56,7 +56,7 @@
                                       </li>
                                   </ul>
 
-                                  <a href="#" class="btn btn-outline-primary btn-lg mt-4">Reserva una consulta</a>
+                                  <a href="#" class="btn btn-outline-primary btn-lg mt-4 shadow">Reserva una consulta</a>
                               </div>
 
                               <div class="col-md-5 col-sm-12 col-lg-5 col-xl-5 col-xxl-5">
@@ -80,7 +80,7 @@
                                       </div>
 
                                       <div class="d-grid gap-2">
-                                          <input type="submit" value="Enviar" class="btn btn-secondary mt-2">
+                                          <input type="submit" value="Enviar" class="btn btn-secondary mt-2 shadow">
                                       </div>
                                   </form>
                               </div>
