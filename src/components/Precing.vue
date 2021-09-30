@@ -1,6 +1,6 @@
 <template>
   <div id="precios">
-      <section class="section-price p-5 ">
+      <section class="section-price p-5">
           <div class="container">
               <div class="row justify-content-center mb-4 mb-lg-6 text-white">
                   <div class="col-12 col-lg-9 text-center">
@@ -30,23 +30,35 @@
                         <div class="card-body">
                             <ul class="list-unstyled mb-4">
                                 <li class="list-item pb-3">
+                                    <i class="icon ion-md-checkmark mr"></i>
                                     <strong>1</strong>
                                     Dominio gratis
                                 </li>
 
                                 <li class="list-item pb-3">
+                                    <i class="icon ion-md-checkmark mr"></i>
                                     Spacio de almacenamiento
                                     <strong>5GB</strong>
                                 </li>
 
                                 <li class="list-item pb-3">
+                                    <i class="icon ion-md-checkmark mr"></i>
                                     <strong>100k</strong>
                                     Visitante mensuales
                                 </li>
 
-                                <li class="list-item pb-3">Sitio de ensayo con un clic</li>
-                                <li class="list-item pb-3">Asistente de motor de búsqueda</li>
-                                <li class="list-item pb-3">Soporte comunitario</li>
+                                <li class="list-item pb-3">
+                                    <i class="icon ion-md-checkmark mr"></i>
+                                    Sitio de ensayo con un clic
+                                </li>
+                                <li class="list-item pb-3">
+                                    <i class="icon ion-md-close mr"></i>
+                                    Asistente de motor de búsqueda
+                                </li>
+                                <li class="list-item pb-3">
+                                    <i class="icon ion-md-close mr"></i>
+                                    Soporte comunitario
+                                </li>
 
                                 <div class="d-grid">
                                     <a href="#" class="btn btn-primary">Seleccionar Plan Inicial</a>
@@ -76,23 +88,35 @@
                         <div class="card-body">
                             <ul class="list-unstyled mb-4">
                                 <li class="list-item pb-3">
+                                    <i class="icon ion-md-checkmark mr"></i>
                                     <strong>5</strong>
                                     Dominio gratis
                                 </li>
 
                                 <li class="list-item pb-3">
+                                    <i class="icon ion-md-checkmark mr"></i>
                                     Spacio de almacenamiento
                                     <strong>15GB</strong>
                                 </li>
 
                                 <li class="list-item pb-3">
+                                    <i class="icon ion-md-checkmark mr"></i>
                                     <strong>400k</strong>
                                     Visitante mensuales
                                 </li>
 
-                                <li class="list-item pb-3">Sitio de ensayo con un clic</li>
-                                <li class="list-item pb-3">Asistente de motor de búsqueda</li>
-                                <li class="list-item pb-3">Soporte comunitario</li>
+                                <li class="list-item pb-3">
+                                    <i class="icon ion-md-checkmark mr"></i>
+                                    Sitio de ensayo con un clic
+                                </li>
+                                <li class="list-item pb-3">
+                                    <i class="icon ion-md-checkmark mr"></i>
+                                    Asistente de motor de búsqueda
+                                </li>
+                                <li class="list-item pb-3">
+                                    <i class="icon ion-md-checkmark mr"></i>
+                                    Soporte comunitario
+                                </li>
 
                                 <div class="d-grid">
                                     <a href="#" class="btn btn-secondary">Seleccionar Plan Estandar</a>
@@ -122,23 +146,35 @@
                         <div class="card-body">
                             <ul class="list-unstyled mb-4">
                                 <li class="list-item pb-3">
+                                    <i class="icon ion-md-checkmark mr"></i>
                                     <strong>10</strong>
                                     Dominio gratis
                                 </li>
 
                                 <li class="list-item pb-3">
+                                    <i class="icon ion-md-checkmark mr"></i>
                                     Spacio de almacenamiento
                                     <strong>Ilimitado</strong>
                                 </li>
 
                                 <li class="list-item pb-3">
+                                    <i class="icon ion-md-checkmark mr"></i>
                                     <strong>10M</strong>
                                     Visitante mensuales
                                 </li>
 
-                                <li class="list-item pb-3">Sitio de ensayo con un clic</li>
-                                <li class="list-item pb-3">Asistente de motor de búsqueda</li>
-                                <li class="list-item pb-3">Soporte comunitario</li>
+                                <li class="list-item pb-3">
+                                    <i class="icon ion-md-checkmark mr"></i>
+                                    Sitio de ensayo con un clic
+                                </li>
+                                <li class="list-item pb-3">
+                                    <i class="icon ion-md-checkmark mr"></i>
+                                    Asistente de motor de búsqueda
+                                </li>
+                                <li class="list-item pb-3">
+                                    <i class="icon ion-md-close mr"></i>
+                                    Soporte comunitario
+                                </li>
 
                                 <div class="d-grid">
                                     <a href="#" class="btn btn-primary">Seleccionar Plan Pro</a>
@@ -224,5 +260,19 @@ export default {
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
         border-bottom-left-radius: 15px;
+    }
+
+    .mr {
+        margin-right: 7px;
+    }
+
+    .ion-md-checkmark {
+        font-size: 30px;
+        color: #50A7B8;
+    }
+
+    .ion-md-close {
+        font-size: 30px;
+        color: #F06D7E;
     }
 </style>
