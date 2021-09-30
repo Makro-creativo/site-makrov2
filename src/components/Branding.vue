@@ -1,6 +1,6 @@
 <template>
-  <div id="branding">
-      <section class="branding-section py-5">
+  <div>
+      <section class="branding-section py-5" id="branding">
           <h2 class="text-center display-4 mb-4 font-weight-bold title-branding">Branding</h2>
           <hr class="mt-4">
 

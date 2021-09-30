@@ -28,6 +28,10 @@
                     </li>
 
                     <li class="nav-item">
+                        <a href="#precios" class="nav-link">Precios</a>
+                    </li>
+
+                    <li class="nav-item">
                         <router-link class="nav-link" to="/portfolio">Portafolio</router-link>
                     </li>
 

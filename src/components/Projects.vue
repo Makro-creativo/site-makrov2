@@ -1,11 +1,18 @@
 <template>
   <div>
       <section class="projects-section py-7">
-        <p class="text-muted text-center description-makro">
-            Hola! Nosotros somos Makro Creativo
-        </p>
-        <div class="column">
-            <h1 class="display-4 title-portfolio">Nuestro portafolio Web! .<span>&#160;</span> </h1>
+        <div class="section-descriptions shadow">
+            <div class="column">
+                <h1 class="display-4 title-portfolio">Nuestro portafolio Web! .<span>&#160;</span> </h1>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <img src="../assets/img/logo_makro_creativo_web-blanco.svg" alt="Logo blanco makro creativo" class="img-fluid logo-makro">
+            </div>
+
+            <p class="text-center description-makro">
+                Hola! Nosotros somos Makro Creativo
+            </p>
         </div>
 
         <div class="d-flex justify-content-center p-5">
@@ -20,7 +27,7 @@
                 <div v-for="project in projects" :key="project.title" class="col-md-4 col-sm-12 col-lg-4 col-xl-4 col-xxl-4 mt-4">
                     <div class="project" v-if="currentFilter === project.category || currentFilter === 'TODO'">
                         <div class="hovereffect shadow rounded">
-                            <img :src="project.image" :alt="project.image" class="img-fluid">
+                            <img :src="project.image" :alt="project.image" class="img-fluid shadow rounded">
 
                             <div class="overlay">
                                 <h2>{{ project.title }}</h2>
@@ -32,20 +39,38 @@
             </div>
         </div>
       </section>
+
+      <Footer />
   </div>
 </template>
 
 <script>
+import Footer from './Footer.vue'
+
 export default {
     name: 'Projects',
+    components: {
+        Footer,
+    },
 
     data() {
         return {
             currentFilter: 'TODO',
             projects: [
-                { title: 'Site', image: '', category: 'BRANDING' },
-                { title: 'Second site', image: '', category: 'ECOMMERCE' },
-                { title: 'Tortillería la esperanza', image: '', category: 'LANDING', url: 'https://laesperanzatortilleria.com/' }
+                { title: 'KayCNC', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-02.svg', category: 'LANDING', url: 'https://kaycnc.com/' },
+                { title: 'Recargas de Extintores', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-03.svg', category: 'LANDING', url: 'https://recargadeextintores.mx/' },
+                { title: 'Roleh', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-04.svg', category: 'ECOMMERCE', url: 'https://roleh.mx/' },
+                { title: 'Corsa Distribuciones', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-05.svg', category: 'LANDING', url: 'http://www.corsadistribuciones.com/' },
+                { title: 'Kenji', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-06.svg', category: 'LANDING', url: 'https://kenjisoluciones.com' },
+                { title: 'Brecha 21', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-07.svg', category: 'ECOMMERCE', url: 'https://brecha21.com/' },
+                { title: 'Marca Méxicana', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-08.svg', category: 'ECOMMERCE', url: 'https://marcasmexicanas.com.mx/' },
+                { title: 'Ferretería Eben Ezer', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-09.svg', category: 'ECOMMERCE', url: 'https://ferreteriaeben-ezer.com/' },
+                { title: 'Remmex', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-10.svg', category: 'ECOMMERCE', url: 'https://remmex.com.mx/' },
+                { title: 'Grupo Montellano', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-11.svg', category: 'LANDING', url: 'https://grupomontellano.com/' },
+                { title: 'lisports', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-12.svg', category: 'ECOMMERCE', url: 'https://lisports.com.mx/' },
+                { title: 'Metales Barajas', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-13.svg', category: 'LANDING', url: 'http://metalesbarajas.mc/' },
+                { title: 'Tortillería la Esperanza', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-14.svg', category: 'LANDING', url: 'https://laesperanzatortilleria.com/' },
+
             ],
         }
     },
@@ -60,7 +85,7 @@ export default {
 
 <style scoped>
     .py-7 {
-        padding-top: 10rem;
+        padding-top: 8rem;
         padding-bottom: 10rem;
     }
 
@@ -72,11 +97,13 @@ export default {
         font-size: 1.5em;
         font-family: 'Poppins', sans-serif;
         font-weight: 400;
+        color: #FFFFFF;
     }
 
     .title-portfolio {
         font-family: 'Poppins', sans-serif;
         font-weight: bold;
+        color: #FFFFFF;
     }
 
     .column {
@@ -93,8 +120,8 @@ export default {
         position: absolute;
         right: 0;
         width: 0;
-        background-color: #FFFFFF;
-        border-left: 5px solid #000;
+        background-color: #2E2D41;
+        border-left: 5px solid #FFFFFF;
 
         animation: machine 5s infinite alternate steps(25);
     }
@@ -218,5 +245,16 @@ export default {
     .hovereffect:hover {
         -webkit-transition-delay:.2s;
         transition-delay:.2s;
+    }
+
+    .section-descriptions {
+        background-color: #2E2D41;
+        width: 100%;
+        height: 60vh;
+    }
+
+    .logo-makro {
+        width: 200px;
+        height: 200px;
     }
 </style>
