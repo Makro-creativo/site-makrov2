@@ -11,7 +11,7 @@
 
               <div class="row">
                   <div class="col-12 col-lg-6 col-xl-4 mb-5 mb-lg-0">
-                    <div class="card shadow border-gray-300 rounded-md mb-3 px-2 text-center">
+                    <div class="card shadow-lg p-5 border-gray-300 rounded-md mb-3 px-2 text-center">
                         <div class="card-header border-0 bg-white p-3">
                             <h2 class="h3 text-primary mb-4">Plan Inicial</h2>
 
@@ -57,7 +57,7 @@
                   </div>
 
                   <div class="col-12 col-lg-6 col-xl-4 mb-5 mb-lg-0">
-                     <div class="card shadow border-gray-300 rounded-md mb-3 px-2 text-center">
+                     <div class="card shadow-lg p-5 border-gray-300 rounded-md mb-3 px-2 text-center">
                         <div class="card-header border-0 bg-white p-3">
                             <h2 class="h3 text-primary mb-4">Plan Estándar</h2>
 
@@ -103,7 +103,7 @@
                   </div>
 
                   <div class="col-12 col-lg-6 col-xl-4 mb-5 mb-lg-0">
-                      <div class="card shadow border-gray-300 rounded-md mb-3 px-2 text-center">
+                      <div class="card shadow-lg p-5 border-gray-300 rounded-md mb-3 px-2 text-center">
                         <div class="card-header border-0 bg-white p-3">
                             <h2 class="h3 text-primary mb-4">Plan Pro</h2>
 
