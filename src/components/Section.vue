@@ -15,10 +15,10 @@
                               crecer tu negocio y posicionar tu marca.
                           </p>
 
-                          <div class="btn btn-danger shadow lift me-1">
+                          <a class="btn btn-danger shadow lift me-1" @click="$router.push('marcas')">
                               <i class="icon ion-md-rocket mr-3 lead"></i>
-                              Ver nuestros productos
-                          </div>
+                              Ve nuestras marcas
+                          </a>
                       </div>
                   </div>
 
