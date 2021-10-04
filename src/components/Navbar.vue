@@ -32,9 +32,13 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <router-link class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" to="/portafolio">Portafolio</router-link>
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
 
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <router-link class="dropdown-item" to="/portfolio">Portafolio</router-link>
+                            </li>
+
                             <li>
                                 <router-link class="dropdown-item" to="/marcas">Nuestras Marcas</router-link>
                             </li>
