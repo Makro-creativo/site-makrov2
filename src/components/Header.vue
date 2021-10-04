@@ -1,5 +1,5 @@
 <template>
-  <div id="header">
+  <div id="home">
       <section class="section-header py-7 d-flex">
           <div class="container align-self-center">
               <div class="row">

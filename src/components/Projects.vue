@@ -17,7 +17,6 @@
 
         <div class="d-flex justify-content-center p-5">
             <span class="filter" :class="{ active: currentFilter === 'TODO' }" @click="setFilterCategory('TODO')">TODO</span>
-            <span class="filter" :class="{ active: currentFilter === 'BRANDING' }" @click="setFilterCategory('BRANDING')">BRANDING</span>
             <span class="filter" :class="{ active: currentFilter === 'ECOMMERCE' }" @click="setFilterCategory('ECOMMERCE')">ECOMMERCE</span>
             <span class="filter" :class="{ active: currentFilter === 'LANDING' }" @click="setFilterCategory('LANDING')">LANDING</span>
         </div>

@@ -34,16 +34,16 @@
                   <a href="#home" class="text-reset text-none text-dark text-decoration-none access">Home</a>
                 </p>
                 <p>
-                  <a href="#section-todo" class="text-reset text-none text-dark text-decoration-none access">Somos</a>
+                  <a href="#how-are" class="text-reset text-none text-dark text-decoration-none access">Nosotros</a>
                 </p>
                 <p>
-                  <a href="#section-services" class="text-reset text-none text-dark text-decoration-none access">Servicios</a>
+                  <a href="#services" class="text-reset text-none text-dark text-decoration-none access">Servicios</a>
                 </p>
                 <p>
-                  <a href="#" class="text-reset text-none text-dark text-decoration-none access">Clientes</a>
+                  <a href="#precios" class="text-reset text-none text-dark text-decoration-none access">Precios</a>
                 </p>
                 <p>
-                  <a href="#section-contact" class="text-reset text-none text-dark text-decoration-none access">Contacto</a>
+                  <a href="#contact" class="text-reset text-none text-dark text-decoration-none access">Contacto</a>
                 </p>
               </div>
               <!-- Grid column -->
@@ -81,11 +81,11 @@
                 <h6 class="title-footer-contact fw-bold mb-4">
                   Contacto
                 </h6>
-                <p class="text-dark">+52 xxx xxx xxxx</p>
+                <p class="text-dark">+52 33 3149 8145</p>
                 <p class="text-dark">
-                  makrocreativo@gmail.com
+                  rigo@makrocreativo.com
                 </p>
-                <p class="text-dark">Av los arcos 937</p>
+                <p class="text-dark">Av los arcos #937</p>
                 <p class="text-dark">Jardines del Bosque GDL</p>
                 <p class="text-dark">Jalisco, Méx.</p>
               </div>

@@ -31,8 +31,22 @@
                         <a href="#precios" class="nav-link">Precios</a>
                     </li>
 
-                    <li class="nav-item">
-                        <router-link class="nav-link" to="/portfolio">Portafolio</router-link>
+                    <li class="nav-item dropdown">
+                        <router-link class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" to="/portafolio">Portafolio</router-link>
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <router-link class="dropdown-item" to="/marcas">Nuestras Marcas</router-link>
+                            </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li>
+                                <a href="https://sismakro.makrocreativo.com/sismakro/" target="_blank" class="dropdown-item">Conoce Nuestros ERP</a>
+                            </li>
+                        </ul>
                     </li>
 
                     <li class="nav-item">

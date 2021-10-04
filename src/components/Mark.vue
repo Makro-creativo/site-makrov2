@@ -1,45 +1,65 @@
 <template>
   <div>
-      <section class="py-7"> 
+      <section class=""> 
         <div class="hero-marks">
           <div class="d-flex justify-content-center">
             <h2 class="title-marks mt-6 mr-3 display-5">Estas son las <span class="marks-title">Marcas</span> que confian en nosotros!</h2>
           </div>
 
           <div class="d-flex justify-content-center mt-4">
-            <button class="btn btn-primary">
+            <a href="#marcas" class="btn btn-primary">
               Ver todas nuestras marcas
-            </button>
+            </a>
           </div>
         </div>
 
         
-        <div class="p-5">
-          <h2 class="text-center text-dark display-4 title-marks">Nuestras Marcas!</h2>
+        <div class="p-5 subtitle-marks">
+          <h2 class="text-center text-marks fw-light title-marks" id="marcas">Nuestras Marcas!</h2>
         </div>
+
+        <ImagesMarks />
+
       </section>
+
+      <Footer />
   </div>
 </template>
 
 <script>
+import ImagesMarks from './ImagesMarks.vue'
+import Footer from './Footer.vue'
+
 export default {
-  name: 'Mark'
+  name: 'Mark',
+  components: {
+    ImagesMarks,
+    Footer,
+  }
 }
 </script>
 
 <style scoped>
-  .py-7 {
-    padding-top: 8rem;
-    padding-bottom: 10rem;
+  .subtitle-marks {
+    background-color: #2E2D41;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+
+  .text-marks {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
   }
 
   .hero-marks {
-    background-image: url('https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/marcas-3.jpeg');
+    background-image: url('https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/marks.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 90vh;
+    height: 80vh;
   }
 
   .title-marks {
@@ -67,6 +87,8 @@ export default {
     transition: all .2s ease;
     font-size: 1rem;
     padding: .8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
   }
 
   .title-marks {
