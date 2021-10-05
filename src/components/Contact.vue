@@ -38,13 +38,7 @@
                                       </li>
 
                                       <li class="list-group-item">
-                                          <a href="#">
-                                            <i class="icon ion-logo-twitter"></i>
-                                          </a>
-                                      </li>
-
-                                      <li class="list-group-item">
-                                        <a href="#">
+                                        <a href="https://www.instagram.com/makro_creativo/?utm_medium=copy_link" target="_blank">
                                             <i class="icon ion-logo-instagram"></i>
                                         </a>
                                       </li>
