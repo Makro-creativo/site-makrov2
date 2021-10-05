@@ -5,14 +5,27 @@
               <div class="row">
                   <div class="col-lg-7 d-flex">
                       <div class="align-self-center">
-                          <div>
-                            <h1 class="display-4 title text-dark font-weight-bold mb-3 effect_machin">
-                              Impulso para <span class="text-orange">crecer.                    </span><span class="cursor">&#160;</span>
-                            </h1>
-                          </div>
+                          <section class="section-process">
+                            <div class="section-container">
+                                <div class="process-steps-container container-medium with-padding">
+                                    <div class="process-step-container process-step-1">
+                                        <div class="process-step-title-container">
+                                            <h1 class="process-step-title">
+                                                Impulso para crecer.
+                                            </h1>
+                                            <div class="process-step-title-overlay">
+                                                Impulso para crecer.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </section>
                           
-                          <p class="text-muted mb-4">
-                              Creación de Marcas Arquitectura de Marca Re-branding <br> Actualización y renovación de Marcas Registro de Marca.
+                          <p class="text-muted mt-4">
+                              Somos el impacto que tú negocio necesita.
                           </p>
                           <hr class="hr-title">
 
@@ -50,33 +63,82 @@ export default {
 </script>
 
 <style scoped>
-    .title {
-        line-height: 58px;
+    .section-process {
+        --gradient-color-1: #F6971B;
+        --gradient-color-2: #2E2D41;
+        --gradient-color-3: #f13813;
+        --gradient-color-4: #c9c9c9;
     }
-    
-    .effect_machin {
-        float: left;
+
+    .section-process .process-steps-container .process-step-container .process-step-title-container {
+        margin-top: -16px;
         position: relative;
     }
 
-    .effect_machin .cursor {
-        position: absolute;
-        right: 0;
-        width: 0;
-        background-color: #FFFFFF;
-        border-left: 1px solid #000;
-
-        animation: machine 5s infinite alternate steps(63);
+    .section-process .process-steps-container .process-step-container .process-step-title-container .process-step-title, .section-process .process-steps-container .process-step-container .process-step-title-container .process-step-title-overlay {
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-size: 80px;
+        font-weight: 900;
+        margin: 0;
+        line-height: 1.2em;
+        letter-spacing: -4px;
     }
 
-    @keyframes machine {
-        from {
-            width: 100%;
-        }
+    .section-process .process-steps-container .process-step-container .process-step-title-container .process-step-title-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: auto;
+        padding-right: 30px;
+        height: 100%;
+        opacity: 1;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
 
-        to {
-            width: 0;
+    .section-process .process-steps-container .process-step-container.process-step-1 .process-step-title-overlay {
+        background-image: linear-gradient(90deg, var(--gradient-color-1), var(--gradient-color-2));
+        animation: animated-gradient-title-1 8s infinite;
+    }
+
+    .section-process .process-steps-container .process-step-container.process-step-2 .process-step-title-overlay {
+        background-image: linear-gradient(90deg, var(--gradient-color-2), var(--gradient-color-3));
+        animation: animated-gradient-title-2 8s infinite;
+    }
+
+    .section-process .process-steps-container .process-step-container.process-step-3 .process-step-title-overlay {
+        background-image: linear-gradient(90deg, var(--gradient-color-3), var(--gradient-color-1));
+        animation: animated-gradient-title-3 8s infinite;
+    }
+
+    @keyframes animated-gradient-title-1 {
+        0%, 16.667%, 100% {
+            opacity: 1;
         }
+        33.333%, 83.333% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes animated-gradient-title-2 {
+        0%, 16.667%, 66.667%, 100% {
+            opacity: 0;
+        }
+        33.333%, 50% {
+            opacity: 1;
+        }
+    }
+    @keyframes animated-gradient-title-3 {
+        0%, 50%, 100% {
+            opacity: 0;
+        }
+        66.667%, 83.333% {
+            opacity: 1;
+        }
+    }
+
+    .title {
+        line-height: 58px;
     }
 
     .py-7 {

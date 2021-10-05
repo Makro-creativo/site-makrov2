@@ -1,18 +1,24 @@
 <template>
   <div>
-      <section class="projects-section py-7">
-        <div class="section-descriptions shadow">
-            <div class="column">
-                <h1 class="display-4 title-portfolio">Nuestro portafolio Web! .<span>&#160;</span> </h1>
-            </div>
-
-            <div class="d-flex justify-content-center">
-                <img src="../assets/img/logo_makro_creativo_web-blanco.svg" alt="Logo blanco makro creativo" class="img-fluid logo-makro">
-            </div>
-
-            <p class="text-center description-makro">
-                Hola! Nosotros somos Makro Creativo
-            </p>
+      <section class="projects-section p-7">
+        <div class="section-descriptions">
+            <section class="section-process">
+                <div class="section-container d-flex justify-content-center">
+                    <div class="process-steps-container container-medium with-padding">
+                        <div class="process-step-container process-step-1">
+                            <div class="process-step-title-container text-center">
+                                <h1 class="process-step-title text-center mt-6">
+                                    Nuestro Portafolio Web
+                                </h1>
+                                <div class="process-step-title-overlay">
+                                     Nuestro Portafolio Web
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
         </div>
 
         <div class="d-flex justify-content-center p-5">
@@ -83,7 +89,79 @@ export default {
 </script>
 
 <style scoped>
-    .py-7 {
+    .section-process {
+        --gradient-color-1: #F6971B;
+        --gradient-color-2: #2E2D41;
+        --gradient-color-3: #f13813;
+        --gradient-color-4: #c9c9c9;
+    }
+
+    .section-process .process-steps-container .process-step-container .process-step-title-container {
+        margin-top: -16px;
+        position: relative;
+    }
+
+    .section-process .process-steps-container .process-step-container .process-step-title-container .process-step-title, .section-process .process-steps-container .process-step-container .process-step-title-container .process-step-title-overlay {
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-size: 80px;
+        font-weight: 900;
+        line-height: 1.2em;
+        letter-spacing: -4px;
+    }
+
+    .section-process .process-steps-container .process-step-container .process-step-title-container .process-step-title-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .section-process .process-steps-container .process-step-container.process-step-1 .process-step-title-overlay {
+        background-image: linear-gradient(90deg, var(--gradient-color-1), var(--gradient-color-2));
+        animation: animated-gradient-title-1 8s infinite;
+    }
+
+    .section-process .process-steps-container .process-step-container.process-step-2 .process-step-title-overlay {
+        background-image: linear-gradient(90deg, var(--gradient-color-2), var(--gradient-color-3));
+        animation: animated-gradient-title-2 8s infinite;
+    }
+
+    .section-process .process-steps-container .process-step-container.process-step-3 .process-step-title-overlay {
+        background-image: linear-gradient(90deg, var(--gradient-color-3), var(--gradient-color-1));
+        animation: animated-gradient-title-3 8s infinite;
+    }
+
+    @keyframes animated-gradient-title-1 {
+        0%, 16.667%, 100% {
+            opacity: 1;
+        }
+        33.333%, 83.333% {
+            opacity: 0;
+        }
+    }
+
+    @keyframes animated-gradient-title-2 {
+        0%, 16.667%, 66.667%, 100% {
+            opacity: 0;
+        }
+        33.333%, 50% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes animated-gradient-title-3 {
+        0%, 50%, 100% {
+            opacity: 0;
+        }
+        66.667%, 83.333% {
+            opacity: 1;
+        }
+    }
+
+    .p-7 {
         padding-top: 8rem;
         padding-bottom: 10rem;
     }
@@ -108,21 +186,6 @@ export default {
     .column {
         margin: 0 auto;
         display: table;
-    }
-
-    h1 {
-        float: left;
-        position: relative;
-    }
-
-    h1 span {
-        position: absolute;
-        right: 0;
-        width: 0;
-        background-color: #2E2D41;
-        border-left: 5px solid #FFFFFF;
-
-        animation: machine 5s infinite alternate steps(25);
     }
 
     @keyframes machine {
@@ -249,11 +312,19 @@ export default {
     .section-descriptions {
         background-color: #2E2D41;
         width: 100%;
-        height: 60vh;
+        height: 80vh;
     }
 
     .logo-makro {
         width: 200px;
         height: 200px;
+    }
+
+    h1 {
+        color: #FFFFFF !important;
+    }
+
+    .mt-6 {
+        margin-top: 10rem !important;
     }
 </style>

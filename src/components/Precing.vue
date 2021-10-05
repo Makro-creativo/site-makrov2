@@ -10,19 +10,19 @@
               </div>
 
               <div class="row">
-                  <div class="col-12 col-lg-6 col-xl-4 mb-5 mb-lg-0">
+                  <div class="col-12 col-lg-6 col-xl-3 mb-5 mb-lg-0">
                     <div class="card shadow-lg p-5 border-gray-300 rounded-md mb-3 px-2 text-center">
                         <div class="card-header border-0 bg-white p-3">
-                            <h2 class="h3 text-primary mb-4">Plan Inicial</h2>
+                            <h2 class="h3 text-primary mb-4">Landing Page</h2>
 
                             <span class="d-block">
                                 <span class="display-2 text-dark fw-bold">
                                     <span class="align-top font-medium">$</span>
-                                    19
+                                    3,600
                                 </span>
 
                                 <span class="d-block text-gray font-small">
-                                    / Por més
+                                    / Pesos
                                 </span>
                             </span>
                         </div>
@@ -30,57 +30,46 @@
                         <div class="card-body">
                             <ul class="list-unstyled mb-4">
                                 <li class="list-item pb-3">
-                                    <i class="icon ion-md-checkmark mr"></i>
                                     <strong>1</strong>
-                                    Dominio gratis
+                                    Dominio primer año
                                 </li>
 
-                                <li class="list-item pb-3">
-                                    <i class="icon ion-md-checkmark mr"></i>
-                                    Spacio de almacenamiento
-                                    <strong>5GB</strong>
+                                <li class="list-item pb-5">
+                                    Hosting Primer año
                                 </li>
 
-                                <li class="list-item pb-3">
-                                    <i class="icon ion-md-checkmark mr"></i>
-                                    <strong>100k</strong>
-                                    Visitante mensuales
+                                <li class="list-item pb-4">
+                                    Landing page
                                 </li>
 
-                                <li class="list-item pb-3">
-                                    <i class="icon ion-md-checkmark mr"></i>
-                                    Sitio de ensayo con un clic
+                                <li class="list-item pb-4">
+                                    Página de una sola sección
                                 </li>
-                                <li class="list-item pb-3">
-                                    <i class="icon ion-md-close mr"></i>
-                                    Asistente de motor de búsqueda
+                                <li class="list-item pb-4">
+                                    Pocisionamiento SEO
                                 </li>
-                                <li class="list-item pb-3">
-                                    <i class="icon ion-md-close mr"></i>
-                                    Soporte comunitario
+                                <li class="list-item pb-4">
+                                    Soporte técnico
                                 </li>
 
-                                <div class="d-grid">
-                                    <a href="#" class="btn btn-primary">Seleccionar Plan Inicial</a>
-                                </div>
                             </ul>
                         </div>
                     </div>
                   </div>
 
-                  <div class="col-12 col-lg-6 col-xl-4 mb-5 mb-lg-0">
+                  <div class="col-12 col-lg-6 col-xl-3 mb-5 mb-lg-0">
                      <div class="card shadow-lg p-5 border-gray-300 rounded-md mb-3 px-2 text-center">
                         <div class="card-header border-0 bg-white p-3">
-                            <h2 class="h3 text-primary mb-4">Plan Estándar</h2>
+                            <h2 class="h3 text-primary mb-4">Página Web Básica</h2>
 
                             <span class="d-block">
                                 <span class="display-2 text-tertiary fw-bold">
                                     <span class="align-top font-medium">$</span>
-                                    49
+                                    6,500
                                 </span>
 
                                 <span class="d-block text-gray font-small">
-                                    / Por més
+                                    / Pesos
                                 </span>
                             </span>
                         </div>
@@ -88,57 +77,108 @@
                         <div class="card-body">
                             <ul class="list-unstyled mb-4">
                                 <li class="list-item pb-3">
-                                    <i class="icon ion-md-checkmark mr"></i>
-                                    <strong>5</strong>
-                                    Dominio gratis
+                                    Página Web a la medida de la empresa
                                 </li>
 
-                                <li class="list-item pb-3">
-                                    <i class="icon ion-md-checkmark mr"></i>
-                                    Spacio de almacenamiento
-                                    <strong>15GB</strong>
+                                <li class="list-item pb-4">
+                                    Página de una sola sección
                                 </li>
 
-                                <li class="list-item pb-3">
-                                    <i class="icon ion-md-checkmark mr"></i>
-                                    <strong>400k</strong>
-                                    Visitante mensuales
+                                <li class="list-item pb-4">
+                                    <strong>1</strong>
+                                    Dominio Primer año
                                 </li>
 
-                                <li class="list-item pb-3">
-                                    <i class="icon ion-md-checkmark mr"></i>
-                                    Sitio de ensayo con un clic
+                                <li class="list-item pb-4">
+                                    Hosting Primer año
                                 </li>
-                                <li class="list-item pb-3">
-                                    <i class="icon ion-md-checkmark mr"></i>
-                                    Asistente de motor de búsqueda
+                                <li class="list-item pb-4">
+                                    Botón de Whatsapp
                                 </li>
-                                <li class="list-item pb-3">
-                                    <i class="icon ion-md-checkmark mr"></i>
-                                    Soporte comunitario
+                                <li class="list-item pb-4">
+                                    Enlace a Redes Sociales
                                 </li>
 
-                                <div class="d-grid">
-                                    <a href="#" class="btn btn-secondary">Seleccionar Plan Estandar</a>
-                                </div>
                             </ul>
                         </div>
                     </div>
                   </div>
 
-                  <div class="col-12 col-lg-6 col-xl-4 mb-5 mb-lg-0">
-                      <div class="card shadow-lg p-5 border-gray-300 rounded-md mb-3 px-2 text-center">
+                  <div class="col-12 col-lg-6 col-xl-3 mb-5 mb-lg-0">
+                      <div class="card shadow-lg border-gray-300 rounded-md mb-3 px-2 text-center">
                         <div class="card-header border-0 bg-white p-3">
-                            <h2 class="h3 text-primary mb-4">Plan Pro</h2>
+                            <h2 class="h3 text-primary mb-4">Página Web Profesional</h2>
 
                             <span class="d-block">
                                 <span class="display-2 text-dark fw-bold">
                                     <span class="align-top font-medium">$</span>
-                                    199
+                                    11,500
                                 </span>
 
                                 <span class="d-block text-gray font-small">
-                                    / Por més
+                                    / Pesos
+                                </span>
+                            </span>
+                        </div>
+
+                        <div class="card-body card-profesional">
+                            <ul class="list-unstyled mb-2">
+                                <li class="list-item pb-1">
+                                    Página Web a la medida de la empresa
+                                </li>
+
+                                <li class="list-item pb-2">
+                                    <strong>5</strong>
+                                    Secciones
+                                </li>
+
+                                <li class="list-item pb-2">
+                                    <strong>1</strong>
+                                    Dominio Primer año
+                                </li>
+
+                                <li class="list-item pb-2">
+                                    Hosting Primer año
+                                </li>
+                                <li class="list-item pb-2">
+                                    Soporte Técnico
+                                </li>
+                                <li class="list-item pb-2">
+                                    <strong>10</strong>
+                                    Correos Personalizados
+                                </li>
+                                <li class="list-item pb-3">
+                                    Botón Whatsapp y Redes sociales
+                                </li>
+                                <li class="list-item pb-1">
+                                    Formulario de contacto
+                                </li>
+                                <li class="list-item pb-3">
+                                    Enlace a Redes Sociales
+                                </li>
+                                <li class="list-item pb-3">
+                                    Posibilidad de Descargar PDF con Menu
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-12 col-lg-6 col-xl-3 mb-5 mb-lg-0">
+                      <div class="card shadow-lg p-5 border-gray-300 rounded-md mb-3 px-2 text-center">
+                        <div class="card-header border-0 bg-white p-3">
+                            <h2 class="h3 text-primary mb-4">E-commerce</h2>
+
+                            <span class="d-block">
+                                <span class="display-2 text-dark fw-bold">
+                                    <span class="align-top font-medium">$</span>
+                                    17,900
+                                </span>
+
+                                <span class="d-block text-gray font-small">
+                                    / Pesos
                                 </span>
                             </span>
                         </div>
@@ -146,39 +186,31 @@
                         <div class="card-body">
                             <ul class="list-unstyled mb-4">
                                 <li class="list-item pb-3">
-                                    <i class="icon ion-md-checkmark mr"></i>
-                                    <strong>10</strong>
-                                    Dominio gratis
+                                    Diseñamos tú tienda en línea 
                                 </li>
 
                                 <li class="list-item pb-3">
-                                    <i class="icon ion-md-checkmark mr"></i>
-                                    Spacio de almacenamiento
-                                    <strong>Ilimitado</strong>
+                                    Pasarela de Pago (Mercado Pago, PayPal, Tarjetas de Crédito)
                                 </li>
 
                                 <li class="list-item pb-3">
-                                    <i class="icon ion-md-checkmark mr"></i>
-                                    <strong>10M</strong>
-                                    Visitante mensuales
+                                    Catalogo de Productos
                                 </li>
 
                                 <li class="list-item pb-3">
-                                    <i class="icon ion-md-checkmark mr"></i>
-                                    Sitio de ensayo con un clic
+                                    <strong>1</strong>
+                                    Dominio Primer año
                                 </li>
                                 <li class="list-item pb-3">
-                                    <i class="icon ion-md-checkmark mr"></i>
-                                    Asistente de motor de búsqueda
+                                    Hosting Primer año
+                                </li>
+                                <li class="list-item pb-3">     
+                                    Soporte Técnico
                                 </li>
                                 <li class="list-item pb-3">
-                                    <i class="icon ion-md-close mr"></i>
-                                    Soporte comunitario
+                                    Formulario de Contacto
                                 </li>
-
-                                <div class="d-grid">
-                                    <a href="#" class="btn btn-primary">Seleccionar Plan Pro</a>
-                                </div>
+                                
                             </ul>
                         </div>
                     </div>
@@ -262,17 +294,7 @@ export default {
         border-bottom-left-radius: 15px;
     }
 
-    .mr {
-        margin-right: 7px;
-    }
-
-    .ion-md-checkmark {
-        font-size: 30px;
-        color: #50A7B8;
-    }
-
-    .ion-md-close {
-        font-size: 30px;
-        color: #F06D7E;
+    .card-body {
+        min-height: 40vh !important;
     }
 </style>

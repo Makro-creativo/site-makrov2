@@ -6,7 +6,7 @@
                   <div class="d-flex col-lg-6">
                       <div class="align-self-center p-4">
                           <h2 class="display-4 font-weight-bold mb-4 title-how-are">
-                              Quienes somos?
+                              Somos!
                           </h2>
                           <hr class="hr-title-how-are">
                           <p class="text-muted mb-4">

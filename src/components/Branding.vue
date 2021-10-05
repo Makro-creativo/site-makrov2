@@ -1,7 +1,7 @@
 <template>
   <div>
       <section class="branding-section py-5" id="branding">
-          <h2 class="text-center display-4 mb-4 font-weight-bold title-branding">Branding</h2>
+          <h2 class="text-center display-4 mb-4 font-weight-bold title-branding">Ayudamos a tú negocio con: </h2>
           <hr class="mt-4">
 
           <div class="container">
@@ -15,13 +15,11 @@
 
                               <div class="col-md-8 col-sm-12 col-lg-8 col-xl-8 col-xxl-8">
                                   <h5 class="card-title">
-                                      Diagnóstico de Marca y Empresa
+                                      Registro de marca
                                   </h5>
                                   <hr class="hr-card">
                                   <p class="card-text text-muted">
-                                      Lorem ipsum dolor sit amet, consectetur
-                                      adipiscing Lorem ipsum dolor sit amet,
-                                      consectetur adipiscing Lorem ipsum dolor sit 
+                                      Asesoría. Tramite y Gestión para el registro de tu marca ante el IMP (Instituto Méxicano de la Propiedad Industrial)
                                   </p>
                               </div>
                           </div>
@@ -37,15 +35,12 @@
 
                               <div class="col-md-8 col-sm-12 col-lg-8 col-xl-8 col-xxl-8">
                                   <h5 class="card-title">
-                                      Cursos Mercadoctecnia
-                                      esencial para emprendedores
+                                      Branding
                                   </h5>
                                   <hr class="hr-card">
                                   <p class="card-text text-muted">
-                                      Lorem ipsum dolor sit amet, consectetur
-                                      adipiscing Lorem ipsum dolor sit amet,
-                                      consectetur adipiscing Lorem ipsum dolor sit
-                                      amet, consectetur adipiscing
+                                      El activo intangible más valioso que tienen las empresas es: SU MARCA Creamos marcas atractivas,
+                                      memorables y estratégicas.
                                   </p>
                               </div>
                           </div>
@@ -61,14 +56,12 @@
 
                               <div class="col-md-8 col-sm-12 col-lg-8 col-xl-8 col-xxl-8">
                                   <h5 class="card-title">
-                                      Planeación y Proyección Efectiva
+                                      Desarrollo de Sistemas de Administración
                                   </h5>
                                   <hr class="hr-card">
                                   <p class="card-text text-muted">
-                                      Lorem ipsum dolor sit amet, consectetur
-                                      adipiscing Lorem ipsum dolor sit amet,
-                                      consectetur adipiscing Lorem ipsum dolor sit
-                                      amet, consectetur adipiscing
+                                      Los ERP (Planificación de Recursos Empresariales) son una herramienta que ayuda a 
+                                      las empresas a optimizar recursos.
                                   </p>
                               </div>
                           </div>
@@ -84,11 +77,13 @@
 
                               <div class="col-md-8 col-sm-12 col-lg-8 col-xl-8-col-xxl-8">
                                   <h5 class="card-title">
-                                      Cursos Community Manager
+                                      Mercadotecnia Digital
                                   </h5>
                                   <hr class="hr-card">
                                   <p class="card-text">
-                                      Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing
+                                      Redes sociales <br>
+                                      1.- Manejo estratégico de redes sociales <br>
+                                      2.- Vende tus productos y servicios a través de las principales redes sociales
                                   </p>
                               </div>
                           </div>
@@ -104,12 +99,15 @@
 
                               <div class="col-md-8 col-sm-12 col-lg-8 col-xl-8-col-xxl-8">
                                   <h5 class="card-title">
-                                      Mercadoctenia Digital
+                                      Consultoría Empresariales
                                   </h5>
                                   <hr class="hr-card">
                                   <p class="card-text">
-                                      Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    Diagnostico y Revisión Procesos Empresariales
+                                    Cursos de Capacitación
+                                    Desarrollo Humano
                                   </p>
+
                               </div>
                           </div>
                       </div>
@@ -124,11 +122,11 @@
 
                               <div class="col-md-8 col-sm-12 col-lg-8 col-xl-8-col-xxl-8">
                                   <h5 class="card-title">
-                                      Desarrollo de Software
+                                      Desarrollo de Software a la Medida
                                   </h5>
                                   <hr class="hr-card">
                                   <p class="card-text">
-                                      Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing Lorem ipsum dolor sit amet, consectetur adipiscing
+                                      Desarrollamos software a la Medida, Aplicaciones de Escritorio, Aplicaciones Web, ERP y CMR.
                                   </p>
                               </div>
                           </div>

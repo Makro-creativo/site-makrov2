@@ -81,9 +81,9 @@
                 <h6 class="title-footer-contact fw-bold mb-4">
                   Contacto
                 </h6>
-                <p class="text-dark">+52 33 3149 8145</p>
+                <p class="text-dark">+52 33 2715 4184</p>
                 <p class="text-dark">
-                  rigo@makrocreativo.com
+                  hola@makrocreativo.com
                 </p>
                 <p class="text-dark">Av los arcos #937</p>
                 <p class="text-dark">Jardines del Bosque GDL</p>

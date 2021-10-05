@@ -12,7 +12,7 @@
 
                                   <p class="text-muted">
                                       <img src="../assets/img/phonelink-ring.gif" alt="Télefono empresaria" class="img-fluid phone">
-                                      +52 33 3149 8145
+                                      +52 33 2715 4184
                                   </p>
 
                                   <p class="text-muted">
@@ -22,7 +22,7 @@
 
                                   <p class="text-muted">
                                       <img src="../assets/img/send_email.gif" alt="Correo electronico" class="img-fluid email">
-                                      rigo@makrocreativo.com
+                                      hola@makrocreativo.com
                                   </p>
 
                                   <p class="text-muted">

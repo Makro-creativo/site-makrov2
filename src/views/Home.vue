@@ -7,6 +7,7 @@
     <Precing />
     <Contact />
     <Footer />
+    <ButtonWhatsapp />
   </div>
 </template>
 
@@ -19,6 +20,7 @@ import Services from '@/components/Services.vue'
 import Precing from '@/components/Precing.vue'
 import Contact from '@/components/Contact.vue'
 import Footer from '@/components/Footer.vue'
+import ButtonWhatsapp from '@/components/ButtonWhatsapp.vue'
 
 export default {
   name: 'Home',
@@ -30,6 +32,7 @@ export default {
     Precing,
     Contact,
     Footer,
+    ButtonWhatsapp,
   }
 }
 </script>
