@@ -32,7 +32,7 @@
 
                                   <ul class="list-group list-group-horizontal">
                                       <li class="list-group-item">
-                                          <a href="#">
+                                          <a href="https://www.facebook.com/makrocreativo" target="_blank">
                                             <i class="icon ion-logo-facebook"></i>
                                           </a>
                                       </li>
@@ -50,7 +50,7 @@
                                       </li>
 
                                       <li class="list-group-item">
-                                          <a href="#">
+                                          <a href="https://api.whatsapp.com/send?phone=523327154184&text=Hola, %20Necesito%20más%20información" target="_blank">
                                             <i class="icon ion-logo-whatsapp"></i>
                                           </a>
                                       </li>
