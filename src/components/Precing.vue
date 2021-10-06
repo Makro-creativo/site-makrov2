@@ -11,13 +11,13 @@
 
               <div class="row">
                   <div class="col-12 col-lg-6 col-xl-3 d-flex align-items-stretch">
-                    <div class="card shadow-lg p-3 border-gray-300 rounded-md mb-3 px-2 text-center">
+                    <div class="card shadow-lg p-3 border-gray-300 rounded-md mb-3 px-2 text-center" style="width: 18rem;">
                         <div class="card-header border-0 bg-white p-3">
                             <h2 class="h3 text-primary mb-2">Landing Page</h2>
 
                             <span class="d-block">
                                 <span class="display-5 text-dark fw-bold">
-                                    <span class="align-top font-medium">$</span>
+                                    <span class="align-top font-medium pricing">$</span>
                                     3,600
                                 </span>
 
@@ -58,7 +58,7 @@
                   </div>
 
                   <div class="col-12 col-lg-6 col-xl-3 d-flex align-items-stretch">
-                     <div class="card shadow-lg p-3 border-gray-300 rounded-md mb-3 px-2 text-center">
+                     <div class="card shadow-lg p-3 border-gray-300 rounded-md mb-3 px-2 text-center" style="width: 18rem;">
                         <div class="card-header border-0 bg-white p-3">
                             <h2 class="h3 text-primary mb-2">Básica</h2>
 
@@ -105,7 +105,7 @@
                   </div>
 
                   <div class="col-12 col-lg-6 col-xl-3 d-flex align-items-stretch">
-                      <div class="card shadow-lg border-gray-300 rounded-md mb-3 px-2 text-center">
+                      <div class="card shadow-lg border-gray-300 rounded-md mb-3 px-2 text-center" style="width: 18rem;">
                         <div class="card-header border-0 bg-white p-3">
                             <h2 class="h3 text-primary mb-2">Página Web Profesional</h2>
 
@@ -167,7 +167,7 @@
 
 
                   <div class="col-12 col-lg-6 col-xl-3 d-flex align-items-stretch">
-                      <div class="card shadow-lg p-3 border-gray-300 rounded-md mb-3 px-2 text-center">
+                      <div class="card shadow-lg p-3 border-gray-300 rounded-md mb-3 px-2 text-center" style="width: 18rem;">
                         <div class="card-header border-0 bg-white p-3">
                             <h2 class="h3 text-primary mb-2">E-commerce</h2>
 
@@ -293,5 +293,19 @@ export default {
         border-bottom-right-radius: 15px;
         border-bottom-left-radius: 15px;
         max-width: 100% !important;
+    }
+
+    /* Hover Effects on Card */
+
+    @media (min-width: 992px) {
+        .pricing .card:hover {
+            margin-top: -.25rem;
+            margin-bottom: .25rem;
+            box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+        }
+
+        .pricing .card:hover .btn {
+            opacity: 1;
+        }
     }
 </style>
