@@ -102,4 +102,10 @@ export default {
     button.navbar-toggler:focus {
         outline: none;    
     }
+
+    .dropdown-item {
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2em;
+    }
 </style>
