@@ -6,6 +6,7 @@
     <Services />
     <Precing />
     <Contact />
+    <CardPrecing />
     <Footer />
   </div>
 </template>
@@ -18,6 +19,7 @@ import Branding from '@/components/Branding.vue'
 import Services from '@/components/Services.vue'
 import Precing from '@/components/Precing.vue'
 import Contact from '@/components/Contact.vue'
+import CardPrecing from '@/components/CardPrecing.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
@@ -29,6 +31,7 @@ export default {
     Services,
     Precing,
     Contact,
+    CardPrecing,
     Footer,
   }
 }

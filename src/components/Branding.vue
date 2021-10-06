@@ -19,7 +19,8 @@
                                   </h5>
                                   <hr class="hr-card">
                                   <p class="card-text text-muted">
-                                      Asesoría. Tramite y Gestión para el registro de tu marca ante el IMP (Instituto Méxicano de la Propiedad Industrial)
+                                      El activo intangible más valioso que tienen las empresas es: SU MARCA Creamos marcas atractivas,
+                                      memorables y estratégicas.
                                   </p>
                               </div>
                           </div>
@@ -39,8 +40,7 @@
                                   </h5>
                                   <hr class="hr-card">
                                   <p class="card-text text-muted">
-                                      El activo intangible más valioso que tienen las empresas es: SU MARCA Creamos marcas atractivas,
-                                      memorables y estratégicas.
+                                      Asesoría. Tramite y Gestión para el registro de tu marca ante el IMP (Instituto Méxicano de la Propiedad Industrial)
                                   </p>
                               </div>
                           </div>
@@ -60,6 +60,7 @@
                                   </h5>
                                   <hr class="hr-card">
                                   <p class="card-text text-muted">
+                                      Desarrollamos software a la Medida, Aplicaciones de Escritorio, Aplicaciones Web, ERP y CMR.
                                       Los ERP (Planificación de Recursos Empresariales) son una herramienta que ayuda a 
                                       las empresas a optimizar recursos.
                                   </p>
@@ -81,9 +82,8 @@
                                   </h5>
                                   <hr class="hr-card">
                                   <p class="card-text">
-                                      Redes sociales <br>
-                                      1.- Manejo estratégico de redes sociales <br>
-                                      2.- Vende tus productos y servicios a través de las principales redes sociales
+                                      Manejo estratégico de Redes Sociales Posicionamiento en Buscadores
+                                      Estratégias de Venta Online
                                   </p>
                               </div>
                           </div>
@@ -103,9 +103,9 @@
                                   </h5>
                                   <hr class="hr-card">
                                   <p class="card-text">
-                                    Diagnostico y Revisión Procesos Empresariales
-                                    Cursos de Capacitación
-                                    Desarrollo Humano
+                                    Diagnóstico y revisión de Procesos Empresariales.
+                                    Desarrollo del Capital Humano (Cursos y Capacitaciones)
+                                    Coach en Liderazgo
                                   </p>
 
                               </div>
@@ -113,25 +113,7 @@
                       </div>
                   </div>
 
-                  <div class="Mercadoctec d-flex justify-content-end">
-                      <div class="card card-course-community shadow-lg p-3 mb-5 bg-body rounded">
-                          <div class="row g-0">
-                              <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 col-xxl-4">
-                                  <div class="blob_6"></div>
-                              </div>
-
-                              <div class="col-md-8 col-sm-12 col-lg-8 col-xl-8-col-xxl-8">
-                                  <h5 class="card-title">
-                                      Desarrollo de Software a la Medida
-                                  </h5>
-                                  <hr class="hr-card">
-                                  <p class="card-text">
-                                      Desarrollamos software a la Medida, Aplicaciones de Escritorio, Aplicaciones Web, ERP y CMR.
-                                  </p>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
+                  
               </div>
           </div>
       </section>

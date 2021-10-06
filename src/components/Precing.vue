@@ -10,13 +10,13 @@
               </div>
 
               <div class="row">
-                  <div class="col-12 col-lg-6 col-xl-3 mb-5 mb-lg-0">
-                    <div class="card shadow-lg p-5 border-gray-300 rounded-md mb-3 px-2 text-center">
+                  <div class="col-12 col-lg-6 col-xl-3 d-flex align-items-stretch">
+                    <div class="card shadow-lg p-3 border-gray-300 rounded-md mb-3 px-2 text-center">
                         <div class="card-header border-0 bg-white p-3">
-                            <h2 class="h3 text-primary mb-4">Landing Page</h2>
+                            <h2 class="h3 text-primary mb-2">Landing Page</h2>
 
                             <span class="d-block">
-                                <span class="display-2 text-dark fw-bold">
+                                <span class="display-5 text-dark fw-bold">
                                     <span class="align-top font-medium">$</span>
                                     3,600
                                 </span>
@@ -28,13 +28,13 @@
                         </div>
 
                         <div class="card-body">
-                            <ul class="list-unstyled mb-4">
-                                <li class="list-item pb-3">
+                            <ul class="list-unstyled">
+                                <li class="list-item pb-4">
                                     <strong>1</strong>
                                     Dominio primer año
                                 </li>
 
-                                <li class="list-item pb-5">
+                                <li class="list-item pb-4">
                                     Hosting Primer año
                                 </li>
 
@@ -57,13 +57,13 @@
                     </div>
                   </div>
 
-                  <div class="col-12 col-lg-6 col-xl-3 mb-5 mb-lg-0">
-                     <div class="card shadow-lg p-5 border-gray-300 rounded-md mb-3 px-2 text-center">
+                  <div class="col-12 col-lg-6 col-xl-3 d-flex align-items-stretch">
+                     <div class="card shadow-lg p-3 border-gray-300 rounded-md mb-3 px-2 text-center">
                         <div class="card-header border-0 bg-white p-3">
-                            <h2 class="h3 text-primary mb-4">Página Web Básica</h2>
+                            <h2 class="h3 text-primary mb-2">Básica</h2>
 
                             <span class="d-block">
-                                <span class="display-2 text-tertiary fw-bold">
+                                <span class="display-5 text-dark fw-bold">
                                     <span class="align-top font-medium">$</span>
                                     6,500
                                 </span>
@@ -75,9 +75,9 @@
                         </div>
 
                         <div class="card-body">
-                            <ul class="list-unstyled mb-4">
-                                <li class="list-item pb-3">
-                                    Página Web a la medida de la empresa
+                            <ul class="list-unstyled">
+                                <li class="list-item pb-4">
+                                    Página a la medida de la empresa
                                 </li>
 
                                 <li class="list-item pb-4">
@@ -95,7 +95,7 @@
                                 <li class="list-item pb-4">
                                     Botón de Whatsapp
                                 </li>
-                                <li class="list-item pb-4">
+                                <li>
                                     Enlace a Redes Sociales
                                 </li>
 
@@ -104,13 +104,13 @@
                     </div>
                   </div>
 
-                  <div class="col-12 col-lg-6 col-xl-3 mb-5 mb-lg-0">
+                  <div class="col-12 col-lg-6 col-xl-3 d-flex align-items-stretch">
                       <div class="card shadow-lg border-gray-300 rounded-md mb-3 px-2 text-center">
                         <div class="card-header border-0 bg-white p-3">
-                            <h2 class="h3 text-primary mb-4">Página Web Profesional</h2>
+                            <h2 class="h3 text-primary mb-2">Página Web Profesional</h2>
 
                             <span class="d-block">
-                                <span class="display-2 text-dark fw-bold">
+                                <span class="display-5 text-dark fw-bold">
                                     <span class="align-top font-medium">$</span>
                                     11,500
                                 </span>
@@ -127,30 +127,30 @@
                                     Página Web a la medida de la empresa
                                 </li>
 
-                                <li class="list-item pb-2">
+                                <li class="list-item pb-3">
                                     <strong>5</strong>
                                     Secciones
                                 </li>
 
-                                <li class="list-item pb-2">
+                                <li class="list-item pb-3">
                                     <strong>1</strong>
                                     Dominio Primer año
                                 </li>
 
-                                <li class="list-item pb-2">
+                                <li class="list-item pb-3">
                                     Hosting Primer año
                                 </li>
-                                <li class="list-item pb-2">
+                                <li class="list-item pb-3">
                                     Soporte Técnico
                                 </li>
-                                <li class="list-item pb-2">
+                                <li class="list-item pb-3">
                                     <strong>10</strong>
                                     Correos Personalizados
                                 </li>
                                 <li class="list-item pb-3">
                                     Botón Whatsapp y Redes sociales
                                 </li>
-                                <li class="list-item pb-1">
+                                <li class="list-item pb-3">
                                     Formulario de contacto
                                 </li>
                                 <li class="list-item pb-3">
@@ -166,13 +166,13 @@
                   </div>
 
 
-                  <div class="col-12 col-lg-6 col-xl-3 mb-5 mb-lg-0">
-                      <div class="card shadow-lg p-5 border-gray-300 rounded-md mb-3 px-2 text-center">
+                  <div class="col-12 col-lg-6 col-xl-3 d-flex align-items-stretch">
+                      <div class="card shadow-lg p-3 border-gray-300 rounded-md mb-3 px-2 text-center">
                         <div class="card-header border-0 bg-white p-3">
-                            <h2 class="h3 text-primary mb-4">E-commerce</h2>
+                            <h2 class="h3 text-primary mb-2">E-commerce</h2>
 
                             <span class="d-block">
-                                <span class="display-2 text-dark fw-bold">
+                                <span class="display-5 text-tertiary fw-bold">
                                     <span class="align-top font-medium">$</span>
                                     17,900
                                 </span>
@@ -185,29 +185,29 @@
 
                         <div class="card-body">
                             <ul class="list-unstyled mb-4">
-                                <li class="list-item pb-3">
+                                <li class="list-item pb-4">
                                     Diseñamos tú tienda en línea 
                                 </li>
 
-                                <li class="list-item pb-3">
+                                <li class="list-item pb-4">
                                     Pasarela de Pago (Mercado Pago, PayPal, Tarjetas de Crédito)
                                 </li>
 
-                                <li class="list-item pb-3">
+                                <li class="list-item pb-4">
                                     Catalogo de Productos
                                 </li>
 
-                                <li class="list-item pb-3">
+                                <li class="list-item pb-4">
                                     <strong>1</strong>
                                     Dominio Primer año
                                 </li>
-                                <li class="list-item pb-3">
+                                <li class="list-item pb-4">
                                     Hosting Primer año
                                 </li>
-                                <li class="list-item pb-3">     
+                                <li class="list-item pb-4">     
                                     Soporte Técnico
                                 </li>
-                                <li class="list-item pb-3">
+                                <li class="list-item pb-4">
                                     Formulario de Contacto
                                 </li>
                                 
@@ -292,9 +292,6 @@ export default {
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
         border-bottom-left-radius: 15px;
-    }
-
-    .card-body {
-        min-height: 40vh !important;
+        max-width: 100% !important;
     }
 </style>

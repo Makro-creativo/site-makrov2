@@ -12,12 +12,12 @@
 
                                   <p class="text-muted">
                                       <img src="../assets/img/phonelink-ring.gif" alt="Télefono empresaria" class="img-fluid phone">
-                                      +52 33 2715 4184
+                                      33 3149 8145
                                   </p>
 
                                   <p class="text-muted">
                                     <img src="../assets/img/location.gif" alt="Dirección" class="img-fluid addres">
-                                     Avenida los Arcos #937
+                                     Col. Jardines del Bosque Guadalajara Jalisco
                                   </p>
 
                                   <p class="text-muted">
@@ -27,7 +27,7 @@
 
                                   <p class="text-muted">
                                       <img src="../assets/img/city.gif" alt="Ciudad" class="img-fluid city">
-                                      Jalisco, México.
+                                      www.makrocreativo.com
                                   </p>
 
                                   <ul class="list-group list-group-horizontal">
