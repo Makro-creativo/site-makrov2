@@ -81,7 +81,7 @@ export default {
   }
 
   .mt-6 {
-    margin-top: 18rem;
+    margin-top: 13rem;
   }
 
   .top-6 {
