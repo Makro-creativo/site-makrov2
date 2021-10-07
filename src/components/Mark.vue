@@ -22,11 +22,6 @@
             </section>
           </div>
 
-          <div class="d-flex justify-content-center top-6">
-            <a href="#marcas" class="btn btn-primary">
-              Ver todas nuestras marcas
-            </a>
-          </div>
         </div>
 
 
@@ -81,7 +76,7 @@ export default {
   }
 
   .mt-6 {
-    margin-top: 13rem;
+    margin-top: 9rem;
   }
 
   .top-6 {
