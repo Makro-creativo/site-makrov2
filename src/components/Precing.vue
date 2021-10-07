@@ -13,7 +13,7 @@
                   <div class="col-12 col-lg-6 col-xl-3 d-flex align-items-stretch">
                     <div class="card shadow-lg p-3 border-gray-300 rounded-md mb-3 px-2 text-center" style="width: 18rem;">
                         <div class="card-header border-0 bg-white p-3">
-                            <h2 class="h3 text-primary mb-2">Landing Page</h2>
+                            <h2 class="h3 text-primary display-2 mb-2">Landing Page</h2>
 
                             <span class="d-block">
                                 <span class="display-5 text-dark fw-bold">
@@ -294,10 +294,6 @@ export default {
         transition: all .2s ease;
         font-size: 1rem;
         padding: .8rem;
-    }
-
-    .text-tertiary {
-        color: #F6971B;
     }
 
     .card {
