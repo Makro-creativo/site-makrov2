@@ -15,7 +15,7 @@
 
                               <div class="col-md-8 col-sm-12 col-lg-8 col-xl-8 col-xxl-8">
                                   <h5 class="card-title">
-                                      Registro de marca
+                                      Branding
                                   </h5>
                                   <hr class="hr-card">
                                   <p class="card-text text-muted">
@@ -36,7 +36,7 @@
 
                               <div class="col-md-8 col-sm-12 col-lg-8 col-xl-8 col-xxl-8">
                                   <h5 class="card-title">
-                                      Branding
+                                      Registro de marca
                                   </h5>
                                   <hr class="hr-card">
                                   <p class="card-text text-muted">

@@ -5,7 +5,7 @@
               <div class="row justify-content-center mb-4 mb-lg-6 text-white">
                   <div class="col-12 col-lg-9 text-center">
                       <h2 class="fw-light mb-4 title">Elija el plan adecuado para su negocio</h2>
-                      <h3 class="text-center mb-4 fw-light">Nuestros <span class="price-text">Precios</span></h3>
+                      
                   </div>
               </div>
 
@@ -64,6 +64,7 @@
 
                             <span class="d-block">
                                 <span class="display-5 text-dark fw-bold">
+                                    <div class="ribbon">Recomendada</div>
                                     <span class="align-top font-medium">$</span>
                                     6,500
                                 </span>
@@ -107,7 +108,7 @@
                   <div class="col-12 col-lg-6 col-xl-3 d-flex align-items-stretch">
                       <div class="card shadow-lg border-gray-300 rounded-md mb-3 px-2 text-center" style="width: 18rem;">
                         <div class="card-header border-0 bg-white p-3">
-                            <h2 class="h3 text-primary mb-2">Página Web Profesional</h2>
+                            <h2 class="h3 text-primary mb-2">Profesional</h2>
 
                             <span class="d-block">
                                 <span class="display-5 text-dark fw-bold">
@@ -172,7 +173,7 @@
                             <h2 class="h3 text-primary mb-2">E-commerce</h2>
 
                             <span class="d-block">
-                                <span class="display-5 text-tertiary fw-bold">
+                                <span class="display-5 text-dark fw-bold">
                                     <span class="align-top font-medium">$</span>
                                     17,900
                                 </span>
@@ -238,11 +239,30 @@ export default {
     }
 
     .text-primary {
-        color: #242e4c!important;
+        color: #F6971B !important;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 2em !important;
     }
 
     .align-top {
         vertical-align: top !important;
+    }
+
+    .ribbon {
+        width: 160px;
+        height: 32px;
+        font-size: 12px;
+        text-align: center;
+        color: #fff;
+        font-weight: bold;
+        box-shadow: 0px 2px 3px rgba(136, 136, 136, 0.25);
+        background: #4dbe3b;
+        transform: rotate(45deg);
+        position: absolute;
+        right: -42px;
+        top: 20px;
+        padding-top: 7px; 
     }
 
     .font-medium {
@@ -276,13 +296,6 @@ export default {
         padding: .8rem;
     }
 
-    .price-text {
-        color: #F6971B;
-        font-weight: bold;
-        font-family: 'Poppins', sans-serif;
-        font-size: 1.2em;
-    }
-
     .text-tertiary {
         color: #F6971B;
     }
@@ -295,16 +308,22 @@ export default {
         max-width: 100% !important;
     }
 
+    .card:hover {
+        margin-top: -.25rem;
+        margin-bottom: .25rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+
     /* Hover Effects on Card */
 
     @media (min-width: 992px) {
-        .pricing .card:hover {
+        .card:hover {
             margin-top: -.25rem;
             margin-bottom: .25rem;
-            box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+            box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.3);
         }
 
-        .pricing .card:hover .btn {
+        .card:hover {
             opacity: 1;
         }
     }
