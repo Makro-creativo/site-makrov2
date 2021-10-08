@@ -1,18 +1,18 @@
 <template>
   <div>
       <section class=""> 
-        <div class="hero-marks">
-          <div class="d-flex justify-content-center">
+        <div class="hero-marks p-7">
+          <div class="text-center">
             <section class="section-process">
                 <div class="section-container d-flex justify-content-center">
                     <div class="process-steps-container container-medium with-padding">
                         <div class="process-step-container process-step-1">
                             <div class="process-step-title-container text-center">
-                                <h1 class="process-step-title text-center mt-6">
-                                    Las Marcas que confian en Nosotros!
+                                <h1 class="process-step-title text-center mt-4">
+                                    Marcas que confian en Nosotros!
                                 </h1>
                                 <div class="process-step-title-overlay">
-                                     Las Marcas que confian en Nosotros!
+                                    Marcas que confian en Nosotros!
                                 </div>
                             </div>
                         </div>
@@ -21,11 +21,12 @@
                 </div>
             </section>
           </div>
-
         </div>
+      
 
-
-        <ImagesMarks />
+        <div>
+          <ImagesMarks />
+        </div>
 
       </section>
 
@@ -66,7 +67,9 @@ export default {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 80vh;
+    height: 50vh;
+    border-bottom-right-radius: 100% 50%;
+    
   }
 
   .title-marks {
@@ -75,8 +78,9 @@ export default {
     font-weight: 400;
   }
 
-  .mt-6 {
-    margin-top: 9rem;
+  .p-7 {
+    margin-top: 8rem;
+    margin-bottom: 10rem;
   }
 
   .top-6 {
@@ -121,7 +125,7 @@ export default {
 
     .section-process .process-steps-container .process-step-container .process-step-title-container .process-step-title, .section-process .process-steps-container .process-step-container .process-step-title-container .process-step-title-overlay {
         font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        font-size: 80px;
+        font-size: 60px;
         font-weight: 900;
         line-height: 1.2em;
         letter-spacing: -4px;

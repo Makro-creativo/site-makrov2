@@ -75,7 +75,8 @@ export default {
                 { title: 'lisports', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-12.svg', category: 'ECOMMERCE', url: 'https://lisports.com.mx/' },
                 { title: 'Metales Barajas', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-13.svg', category: 'LANDING', url: 'http://metalesbarajas.mx/' },
                 { title: 'Tortillería la Esperanza', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-14.svg', category: 'LANDING', url: 'https://laesperanzatortilleria.com/' },
-                { title: 'Orgullo Azul', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_15.svg', category: 'LANDING', url: 'https://orgulloazul.com.mx/' }
+                { title: 'Orgullo Azul', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_15.svg', category: 'LANDING', url: 'https://orgulloazul.com.mx/' },
+                { title: 'Farmacia Nisi', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_16.svg', category: 'ECOMMERCE', url: 'https://nisifarmaciaylaboratorio.com/' }
             ],
         }
     },

@@ -12,10 +12,6 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/">Inicio</router-link>
-                    </li>
-
-                    <li class="nav-item">
                         <a href="#how-are" class="nav-link">Nosotros</a>
                     </li>
 
@@ -24,33 +20,19 @@
                     </li>
 
                     <li class="nav-item">
+                        <a href="https://sismakro.makrocreativo.com/sismakro/" target="_blank" class="btn btn-outline-dark">Conoce nuestro ERP</a>
+                    </li>
+
+                    <li class="nav-item">
                         <a href="#services" class="nav-link">Servicios</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#precios" class="nav-link">Precios</a>
+                        <router-link class="nav-link" to="/portfolio">Portafolio</router-link>
                     </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
-
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li>
-                                <router-link class="dropdown-item" to="/portfolio">Portafolio</router-link>
-                            </li>
-
-                            <li>
-                                <router-link class="dropdown-item" to="/marcas">Nuestras Marcas</router-link>
-                            </li>
-
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-
-                            <li>
-                                <a href="https://sismakro.makrocreativo.com/sismakro/" target="_blank" class="dropdown-item">Conoce Nuestros ERP</a>
-                            </li>
-                        </ul>
+                    <li class="nav-item">
+                        <router-link class="nav-link" to="/marcas">Marcas</router-link>
                     </li>
 
                     <li class="nav-item">
@@ -93,6 +75,35 @@ export default {
         font-weight: 400;
         font-family: 'Poppins', sans-serif;
     }
+
+
+    .btn-outline-dark {
+        background-image: linear-gradient(to right, #606c88 0%, #3f4c6b  51%, #606c88  100%)
+    }
+
+    .btn-outline-dark {
+        margin: 10px;
+        padding: .4rem .6rem !important;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 20px;
+        display: block;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .btn-outline-dark:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+    }
+         
 
     .navbar-toggler {
         font-size: 40px;
