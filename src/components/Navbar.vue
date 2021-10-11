@@ -16,14 +16,6 @@
                     </li>
 
                     <li class="nav-item">
-                        <a href="#branding" class="nav-link">Branding</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="https://sismakro.makrocreativo.com/sismakro/" target="_blank" class="btn btn-outline-dark">Conoce nuestro ERP</a>
-                    </li>
-
-                    <li class="nav-item">
                         <a href="#services" class="nav-link">Servicios</a>
                     </li>
 
@@ -33,6 +25,10 @@
 
                     <li class="nav-item">
                         <router-link class="nav-link" to="/marcas">Marcas</router-link>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="https://sismakro.makrocreativo.com/sismakro/" target="_blank" class="btn btn-outline-dark">Nuestro ERP</a>
                     </li>
 
                     <li class="nav-item">
@@ -83,7 +79,7 @@ export default {
 
     .btn-outline-dark {
         margin: 10px;
-        padding: .4rem .6rem !important;
+        padding: .4rem 1rem !important;
         text-align: center;
         text-transform: uppercase;
         transition: 0.5s;

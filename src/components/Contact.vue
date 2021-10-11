@@ -7,13 +7,19 @@
                       <div class="card shadow-lg p-5 mb-5 bg-body rounded">
                           <div class="row">
                               <div class="col-md-7 col-sm-12 col-lg-7 col-xl-7 col-xxl-7">
-                                  <h2 class="mb-4 title-contact">Somos el impacto que tú marca necesita!</h2>
+                                  <h2 class="mb-4 title-contact text-sm-start text-md-start text-lg-start text-xl-start">Somos el impacto que tú marca necesita!</h2>
                                   <hr class="hr-card">
 
                                   <p class="text-muted">
                                       <img src="../assets/img/phonelink-ring.gif" alt="Télefono empresaria" class="img-fluid phone">
                                       33 3149 8145
                                   </p>
+
+                                  <p class="text-muted">
+                                      <img src="https://img.icons8.com/ios-filled/50/000000/whatsapp--v4.png" class="img-fluid whatsapp-web mr-6">
+                                      33 2715 4184
+                                  </p>
+
 
                                   <p class="text-muted">
                                     <img src="../assets/img/location.gif" alt="Dirección" class="img-fluid addres">
@@ -54,9 +60,9 @@
                               </div>
 
                               <div class="col-md-5 col-sm-12 col-lg-5 col-xl-5 col-xxl-5">
-                                  <h3 class="mb-4 subtitle-form d-flex justify-content-center mt-3">También puedes contactarnos desde aquí</h3>
+                                  <h3 class="mb-4 subtitle-form d-flex justify-content-center mt-4 text-lg-center text-sm-center text-md-center">También puedes contactarnos desde aquí</h3>
 
-                                  <form action="">
+                                  <form action="" class="p-2">
                                       <div class="form-group">
                                           <input type="text" class="form-control" placeholder="Nombre">
                                       </div>
@@ -73,7 +79,7 @@
                                           <textarea cols="10" rows="7" class="form-control" placeholder="Mensaje"></textarea>
                                       </div>
 
-                                      <div class="d-grid gap-2">
+                                      <div class="d-grid gap-2 mt-4">
                                           <input type="submit" value="Enviar" class="btn btn-secondary mt-2 shadow">
                                       </div>
                                   </form>
@@ -111,6 +117,10 @@ export default {
         border-top-right-radius: 20px !important;
     }
 
+    .mr-6 {
+        margin-right: 15px;
+    }
+
     .title-contact {
         font-family: 'Poppins', sans-serif;
         font-size: 2.5em;
@@ -133,6 +143,11 @@ export default {
     .addres {
         width: 50px;
         height: 50px;
+    }
+
+    .whatsapp-web {
+        width: 35px;
+        height: 35px;
     }
 
     .email {

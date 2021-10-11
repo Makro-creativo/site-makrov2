@@ -1,6 +1,6 @@
 <template>
   <div>
-      <section class="branding-section py-5" id="branding">
+      <section class="branding-section py-5" id="services">
           <section class="section-process">
             <div class="section-container d-flex justify-content-center">
                 <div class="process-steps-container container-medium with-padding">
