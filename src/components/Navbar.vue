@@ -24,10 +24,6 @@
                     </li>
 
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/marcas">Marcas</router-link>
-                    </li>
-
-                    <li class="nav-item">
                         <a href="https://sismakro.makrocreativo.com/sismakro/" target="_blank" class="btn btn-outline-dark">Nuestro ERP</a>
                     </li>
 

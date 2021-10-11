@@ -2,6 +2,7 @@
   <div>
     <Header />
     <Section />
+    <Companies />
     <Branding />
     <Services />
     <Precing />
@@ -14,6 +15,7 @@
 // @ is an alias to /src
 import Header from '@/components/Header.vue'
 import Section from '@/components/Section.vue'
+import Companies from '@/components/Companies.vue'
 import Branding from '@/components/Branding.vue'
 import Precing from '@/components/Precing.vue'
 import Contact from '@/components/Contact.vue'
@@ -24,6 +26,7 @@ export default {
   components: {
     Header,
     Section,
+    Companies,
     Branding,
     Precing,
     Contact,
