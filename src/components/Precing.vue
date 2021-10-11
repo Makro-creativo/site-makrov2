@@ -4,7 +4,7 @@
           <div class="container">
               <div class="row justify-content-center mb-4 mb-lg-6 text-white">
                   <div class="col-12 col-lg-9 text-center">
-                      <h2 class="fw-light mb-4 title">Elija el plan adecuado para su negocio</h2>
+                      <h2 class="fw-light mb-4 title">Elija la página de tu negocio</h2>
                       
                   </div>
               </div>
@@ -64,7 +64,6 @@
 
                             <span class="d-block">
                                 <span class="display-5 text-dark fw-bold">
-                                    <div class="ribbon">Recomendada</div>
                                     <span class="align-top font-medium">$</span>
                                     6,500
                                 </span>
@@ -171,8 +170,10 @@
                       <div class="card shadow-lg p-3 border-gray-300 rounded-md mb-3 px-2 text-center" style="width: 18rem;">
                         <div class="card-header border-0 bg-white p-3">
                             <h2 class="h3 text-primary mb-2">E-commerce</h2>
+                            <p>Desde</p>
 
                             <span class="d-block">
+                                <div class="ribbon">Más popular</div>
                                 <span class="display-5 text-dark fw-bold">
                                     <span class="align-top font-medium">$</span>
                                     17,900
@@ -250,7 +251,7 @@ export default {
     }
 
     .ribbon {
-        width: 160px;
+        width: 130px;
         height: 32px;
         font-size: 12px;
         text-align: center;
@@ -261,7 +262,7 @@ export default {
         transform: rotate(45deg);
         position: absolute;
         right: -42px;
-        top: 20px;
+        top: 15px;
         padding-top: 7px; 
     }
 

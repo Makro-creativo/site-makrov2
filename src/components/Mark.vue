@@ -8,11 +8,11 @@
                     <div class="process-steps-container container-medium with-padding">
                         <div class="process-step-container process-step-1">
                             <div class="process-step-title-container text-center">
-                                <h1 class="process-step-title text-center mt-4">
-                                    Marcas que confian en Nosotros!
+                                <h1 class="process-step-title text-center mt-7">
+                                    Marcas que confian en Nosotros
                                 </h1>
                                 <div class="process-step-title-overlay">
-                                    Marcas que confian en Nosotros!
+                                    Marcas que confian en Nosotros
                                 </div>
                             </div>
                         </div>
@@ -67,9 +67,13 @@ export default {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 50vh;
+    min-height: 65vh;
     border-bottom-right-radius: 100% 50%;
     
+  }
+
+  .mt-7 {
+    margin-top: 9rem !important;
   }
 
   .title-marks {
@@ -79,12 +83,8 @@ export default {
   }
 
   .p-7 {
-    margin-top: 8rem;
+    margin-top: 6rem;
     margin-bottom: 10rem;
-  }
-
-  .top-6 {
-    margin-top: 2rem;
   }
 
   .marks-title {

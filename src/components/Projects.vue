@@ -8,10 +8,10 @@
                         <div class="process-step-container process-step-1">
                             <div class="process-step-title-container text-center">
                                 <h1 class="process-step-title text-center mt-6">
-                                    Nuestro Portafolio Web
+                                    Nuestro Portafolio
                                 </h1>
                                 <div class="process-step-title-overlay">
-                                     Nuestro Portafolio Web
+                                     Nuestro Portafolio
                                 </div>
                             </div>
                         </div>
@@ -317,7 +317,7 @@ export default {
     .section-descriptions {
         background-color: #2E2D41;
         width: 100%;
-        height: 80vh;
+        min-height: 60vh;
     }
 
     .logo-makro {

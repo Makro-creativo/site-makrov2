@@ -1,7 +1,6 @@
 <template>
   <div>
-      <h2 class="text-center mt-4 text-dark display-4 title-marks">Nuestras Marcas!</h2>
-      <section class="section-images-marks p-3"> 
+      <section class="section-images-marks"> 
           <div class="container">
               <div class="row">
                   <div class="col-md-4-col-sm-12 col-lg-4 col-xl-4 col-xxl-4 mt-4">
