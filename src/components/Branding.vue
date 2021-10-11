@@ -1,7 +1,7 @@
 <template>
   <div>
       <section class="branding-section py-5" id="services">
-          <section class="section-process">
+          <div class="section-process">
             <div class="section-container d-flex justify-content-center">
                 <div class="process-steps-container container-medium with-padding">
                     <div class="process-step-container process-step-1">
@@ -17,7 +17,7 @@
                                                
                 </div>
             </div>
-          </section>
+          </div>
           <hr class="mt-4">
 
           <div class="container">
@@ -72,7 +72,7 @@
 
                               <div class="col-md-8 col-sm-12 col-lg-8 col-xl-8 col-xxl-8">
                                   <h5 class="card-title">
-                                      Desarrollo de Sistemas de Software
+                                      Desarrollo de Software
                                   </h5>
                                   <hr class="hr-card">
                                   <p class="card-text text-muted">
@@ -169,7 +169,7 @@ export default {
         top: 0;
         left: 0;
         width: auto;
-        padding-right: 30px;
+        padding-right: 0px;
         height: 100%;
         opacity: 1;
         -webkit-text-fill-color: transparent;
