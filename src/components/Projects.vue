@@ -25,6 +25,7 @@
             <span class="filter" :class="{ active: currentFilter === 'TODO' }" @click="setFilterCategory('TODO')">TODO</span>
             <span class="filter" :class="{ active: currentFilter === 'ECOMMERCE' }" @click="setFilterCategory('ECOMMERCE')">ECOMMERCE</span>
             <span class="filter" :class="{ active: currentFilter === 'LANDING' }" @click="setFilterCategory('LANDING')">LANDING</span>
+            <span class="filter" :class="{ active: currentFilter === 'MARCAS' }" @click="setFilterCategory('MARCAS')">MARCAS</span>
         </div>
 
         <div class="container">

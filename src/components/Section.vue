@@ -33,7 +33,7 @@
 
                           <a class="btn btn-danger shadow lift me-1" @click="$router.push('marcas')">
                               <i class="icon ion-md-rocket mr-3 lead"></i>
-                              Empresas que confian en nosotros
+                             Conoce nuestras marcas
                           </a>
                       </div>
                   </div>
