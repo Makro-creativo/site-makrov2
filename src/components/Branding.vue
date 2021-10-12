@@ -157,7 +157,7 @@ export default {
 
     .section-process .process-steps-container .process-step-container .process-step-title-container .process-step-title, .section-process .process-steps-container .process-step-container .process-step-title-container .process-step-title-overlay {
         font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        font-size: 65px;
+        font-size: 60px;
         font-weight: 900;
         margin: 0;
         line-height: 1.2em;
