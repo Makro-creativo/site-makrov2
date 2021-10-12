@@ -6,10 +6,10 @@
                 <div class="process-steps-container container-medium with-padding">
                     <div class="process-step-container process-step-1">
                         <div class="process-step-title-container text-center">
-                            <h1 class="process-step-title text-center">
+                            <h1 class="process-step-title text-center p-5">
                                 Empresas que cofian en nosotros
                             </h1>
-                            <div class="process-step-title-overlay">
+                            <div class="process-step-title-overlay p-5">
                                 Empresas que cofian en nosotros
                             </div>
                     </div>
@@ -23,10 +23,10 @@
 <div class="slider">
 	<div class="slide-track">
 		<div class="slide">
-			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-empresas/iconos_200x200-01.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
+			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-empresas/iconos_200x200_remake.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
 		</div>
 		<div class="slide">
-			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-empresas/iconos_200x200-02.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
+			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-empresas/iconos_200x200_remake-02.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
 		</div>
 		<div class="slide">
 			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-empresas/iconos_200x200-03.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
@@ -163,7 +163,7 @@ export default {
         align-items: center;
         background: #ffff;
         display: flex;
-        min-height: 70vh;
+        min-height: 50vh;
         justify-content: center;
     }
 

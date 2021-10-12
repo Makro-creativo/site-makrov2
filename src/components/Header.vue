@@ -89,7 +89,7 @@ export default {
         top: 0;
         left: 0;
         width: auto;
-        padding-right: 30px;
+        padding-right: 0px;
         height: 100%;
         opacity: 1;
         -webkit-text-fill-color: transparent;

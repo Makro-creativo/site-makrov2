@@ -1,6 +1,6 @@
 <template>
   <div>
-      <section class="section-images-marks"> 
+      <section class="section-images-marks p-5"> 
           <div class="container">
               <div class="row">
                   <div class="col-md-4-col-sm-12 col-lg-4 col-xl-4 col-xxl-4 mt-4">
