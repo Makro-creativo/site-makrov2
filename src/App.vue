@@ -14,6 +14,21 @@ export default {
   name: 'App',
   components: {
     Navbar
+  },
+
+  created() {
+    if(this.$workbox) {
+      this.$workbox.addEventListener('waiting', () => {
+        this.showUpdatedeUI = true;
+      });
+    }
+  },
+
+  methods: {
+    async accept() {
+      this.showUpdateUI = false;
+      await this.$workbox.messageSW({ type: "SKIP_WAITING" });
+    }
   }
 }
 </script>

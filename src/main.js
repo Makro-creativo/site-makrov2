@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
+import wb from "./registerServiceWorker";
 
+Vue.prototype.$workbox = wb;
 
 Vue.config.productionTip = false
 
