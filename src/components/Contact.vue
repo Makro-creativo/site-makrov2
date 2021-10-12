@@ -7,7 +7,7 @@
                       <div class="card shadow-lg p-5 mb-5 bg-body rounded">
                           <div class="row">
                               <div class="col-md-7 col-sm-12 col-lg-7 col-xl-7 col-xxl-7">
-                                  <h2 class="mb-4 title-contact text-sm-start text-md-start text-lg-start text-xl-start">Somos el impacto que tú marca necesita!</h2>
+                                  <h2 class="mb-4 title-contact text-sm-start text-md-start text-lg-start text-xl-start">Somos el impacto que tu marca necesita</h2>
                                   <hr class="hr-card">
 
                                   <p class="text-muted">

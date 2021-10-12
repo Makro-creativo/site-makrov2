@@ -98,8 +98,8 @@
                                   </h5>
                                   <hr class="hr-card">
                                   <p class="card-text">
-                                      Manejo estratégico de Redes Sociales Posicionamiento en Buscadores
-                                      Estratégias de Venta Online
+                                      Manejo estratégico de Redes Sociales. <br> Posicionamiento en Buscadores y <br>
+                                      Estratégias de Venta Online.
                                   </p>
                               </div>
                           </div>
@@ -115,13 +115,13 @@
 
                               <div class="col-md-8 col-sm-12 col-lg-8 col-xl-8-col-xxl-8">
                                   <h5 class="card-title">
-                                      Consultoría Empresariales
+                                      Consultoría Empresarial
                                   </h5>
                                   <hr class="hr-card">
                                   <p class="card-text">
-                                    Diagnóstico y revisión de Procesos Empresariales.
-                                    Desarrollo del Capital Humano (Cursos y Capacitaciones)
-                                    Coach en Liderazgo
+                                    Diagnóstico y revisión de Procesos Empresariales. <br>
+                                    Desarrollo del Capital Humano (Cursos y Capacitaciones) y <br>
+                                    Coach en Liderazgo.
                                   </p>
 
                               </div>

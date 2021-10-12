@@ -4,7 +4,7 @@
           <div class="container">
               <div class="row justify-content-center mb-4 mb-lg-6 text-white">
                   <div class="col-12 col-lg-9 text-center">
-                      <h2 class="fw-light mb-4 title">Elija la página de tu negocio</h2>
+                      <h2 class="fw-light mb-4 title">Elija una página para su negocio</h2>
                       
                   </div>
               </div>
