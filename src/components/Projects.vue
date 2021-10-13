@@ -24,7 +24,7 @@
         <div class="d-flex justify-content-center p-5">
             <span class="filter" :class="{ active: currentFilter === 'TODO' }" @click="setFilterCategory('TODO')">TODO</span>
             <span class="filter" :class="{ active: currentFilter === 'ECOMMERCE' }" @click="setFilterCategory('ECOMMERCE')">ECOMMERCE</span>
-            <span class="filter" :class="{ active: currentFilter === 'LANDING' }" @click="setFilterCategory('LANDING')">LANDING</span>
+            <span class="filter" :class="{ active: currentFilter === 'PÁGINAS WEB' }" @click="setFilterCategory('PÁGINAS WEB')">PÁGINAS WEB</span>
             <span class="filter" :class="{ active: currentFilter === 'MARCAS' }" @click="setFilterCategory('MARCAS')">MARCAS</span>
         </div>
 
@@ -67,20 +67,20 @@ export default {
         return {
             currentFilter: 'TODO',
             projects: [
-                { title: 'KayCNC', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-02.svg', category: 'LANDING', url: 'https://kaycnc.com/' },
-                { title: 'Recargas de Extintores', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-03.svg', category: 'LANDING', url: 'https://recargadeextintores.mx/' },
+                { title: 'KayCNC', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-02.svg', category: 'PÁGINAS WEB', url: 'https://kaycnc.com/' },
+                { title: 'Recargas de Extintores', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-03.svg', category: 'PÁGINAS WEB', url: 'https://recargadeextintores.mx/' },
                 { title: 'Roleh', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-04.svg', category: 'ECOMMERCE', url: 'https://roleh.mx/' },
-                { title: 'Corsa Distribuciones', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-05.svg', category: 'LANDING', url: 'http://www.corsadistribuciones.com/' },
-                { title: 'Kenji', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-06.svg', category: 'LANDING', url: 'https://kenjisoluciones.com' },
+                { title: 'Corsa Distribuciones', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-05.svg', category: 'PÁGINAS WEB', url: 'http://www.corsadistribuciones.com/' },
+                { title: 'Kenji', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-06.svg', category: 'PÁGINAS WEB', url: 'https://kenjisoluciones.com' },
                 { title: 'Brecha 21', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-07.svg', category: 'ECOMMERCE', url: 'https://brecha21.com/' },
                 { title: 'Marca Méxicana', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-08.svg', category: 'ECOMMERCE', url: 'https://marcasmexicanas.com.mx/' },
                 { title: 'Ferretería Eben Ezer', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-09.svg', category: 'ECOMMERCE', url: 'https://ferreteriaeben-ezer.com/' },
                 { title: 'Remmex', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-10.svg', category: 'ECOMMERCE', url: 'https://remmex.com.mx/' },
-                { title: 'Grupo Montellano', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-11.svg', category: 'LANDING', url: 'https://grupomontellano.com/' },
+                { title: 'Grupo Montellano', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-11.svg', category: 'PÁGINAS WEB', url: 'https://grupomontellano.com/' },
                 { title: 'lisports', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-12.svg', category: 'ECOMMERCE', url: 'https://lisports.com.mx/' },
-                { title: 'Metales Barajas', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-13.svg', category: 'LANDING', url: 'http://metalesbarajas.mx/' },
+                { title: 'Metales Barajas', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-13.svg', category: 'PÁGINAS WEB', url: 'http://metalesbarajas.mx/' },
                 { title: 'Tortillería la Esperanza', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-14.svg', category: 'LANDING', url: 'https://laesperanzatortilleria.com/' },
-                { title: 'Orgullo Azul', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_15.svg', category: 'LANDING', url: 'https://orgulloazul.com.mx/' },
+                { title: 'Orgullo Azul', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_15.svg', category: 'PÁGINAS WEB', url: 'https://orgulloazul.com.mx/' },
                 { title: 'Farmacia Nisi', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_16.svg', category: 'ECOMMERCE', url: 'https://nisifarmaciaylaboratorio.com/' },
                 { title: 'Yacht Club', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-marcas/logos-02.svg', category: 'MARCAS' },
                 { title: 'Elegance', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-marcas/logos-03.svg', category: 'MARCAS' },
