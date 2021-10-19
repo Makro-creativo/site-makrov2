@@ -62,21 +62,21 @@
                               <div class="col-md-5 col-sm-12 col-lg-5 col-xl-5 col-xxl-5">
                                   <h3 class="mb-4 subtitle-form d-flex justify-content-center mt-4 text-lg-center text-sm-center text-md-center">También puedes contactarnos desde aquí</h3>
 
-                                  <form action="" class="p-2">
+                                  <form @submit.prevent="submitForm" class="p-2">
                                       <div class="form-group">
-                                          <input type="text" class="form-control" placeholder="Nombre">
+                                          <input v-model="form.name" type="text" class="form-control" placeholder="Nombre" required>
                                       </div>
 
                                       <div class="form-group mt-4">
-                                          <input type="email" class="form-control" placeholder="Correo electronico">
+                                          <input v-model="form.email" type="email" class="form-control" placeholder="Correo electronico" required>
                                       </div>
 
                                       <div class="form-group mt-4">
-                                          <input type="text" class="form-control" placeholder="Tema de la consulta">
+                                          <input v-model="form.consulting" type="text" class="form-control" placeholder="Tema de la consulta" required>
                                       </div>
 
                                       <div class="form-group mt-4">
-                                          <textarea cols="10" rows="7" class="form-control" placeholder="Mensaje"></textarea>
+                                          <textarea v-model="form.message" cols="10" rows="7" class="form-control" placeholder="Mensaje" required></textarea>
                                       </div>
 
                                       <div class="d-grid gap-2 mt-4">
@@ -98,8 +98,37 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
-    name: 'Contact'
+    name: 'Contact',
+
+    data() {
+        return {
+            form: {
+                name: '',
+                email: '',
+                consulting: '',
+                message: '',
+            }
+        }
+    },
+
+    methods: {
+        submitForm() {
+            axios.post('http://localhost:3000/api/send-email', this.form)
+                .then(response => {
+                    if(response) {
+                        console.log(response);
+                    }
+                })
+                .catch(error => {
+                    console.error(error);
+                })
+
+                this.form = '';
+        }
+    }
 }
 </script>
 
@@ -202,7 +231,6 @@ export default {
         outline: none !important;
         font-family: 'Poppins', sans-serif;
         font-size: .9em;
-        color: #E6E6E6 !important;
     }
 
     .ion-logo-facebook {

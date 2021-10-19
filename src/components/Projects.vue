@@ -79,7 +79,7 @@ export default {
                 { title: 'Grupo Montellano', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-11.svg', category: 'PÁGINAS WEB', url: 'https://grupomontellano.com/' },
                 { title: 'lisports', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-12.svg', category: 'ECOMMERCE', url: 'https://lisports.com.mx/' },
                 { title: 'Metales Barajas', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-13.svg', category: 'PÁGINAS WEB', url: 'http://metalesbarajas.mx/' },
-                { title: 'Tortillería la Esperanza', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web-14.svg', category: 'LANDING', url: 'https://laesperanzatortilleria.com/' },
+                { title: 'Tortillería la Esperanza', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/la-esperanza.svg', category: 'LANDING', url: 'https://laesperanzatortilleria.com/' },
                 { title: 'Orgullo Azul', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_15.svg', category: 'PÁGINAS WEB', url: 'https://orgulloazul.com.mx/' },
                 { title: 'Farmacia Nisi', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_16.svg', category: 'ECOMMERCE', url: 'https://nisifarmaciaylaboratorio.com/' },
                 { title: 'Yacht Club', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-marcas/logos-02.svg', category: 'MARCAS' },
@@ -100,6 +100,7 @@ export default {
                 { title: 'Feyplos', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-marcas/logos-17.svg', category: 'MARCAS' },
                 { title: 'Black Jack Design', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-marcas/logos-18.svg', category: 'MARCAS' },
                 { title: 'Artejido', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-marcas/logos-19.svg', category: 'MARCAS' },
+                { title: 'Internet mx', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/internetmx.svg', category: 'PÁGINAS WEB', url: 'https://internetmx.com.mx/' },
             ],
         }
     },
