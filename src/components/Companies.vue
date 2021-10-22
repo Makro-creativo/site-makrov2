@@ -23,43 +23,43 @@
 <div class="slider">
 	<div class="slide-track">
 		<div class="slide">
-			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-empresas/iconos_200x200_remake.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
+			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/logos-empresas/iconos_200x200_remake.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
 		</div>
 		<div class="slide">
-			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-empresas/iconos_200x200_remake-02.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
+			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/logos-empresas/iconos_200x200_remake-02.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
 		</div>
 		<div class="slide">
-			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-empresas/iconos_200x200-03.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
+			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/logos-empresas/iconos_200x200-03.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
 		</div>
 		<div class="slide">
-			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-empresas/iconos_200x200-04.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
+			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/logos-empresas/iconos_200x200-04.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
 		</div>
 		<div class="slide">
-			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-empresas/iconos_200x200-05.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
+			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/logos-empresas/iconos_200x200-05.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
 		</div>
 		<div class="slide">
-			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-empresas/iconos_200x200-06.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
+			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/logos-empresas/iconos_200x200-06.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
 		</div>
 		<div class="slide">
-			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-empresas/iconos_200x200-07.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
+			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/logos-empresas/iconos_200x200-07.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
 		</div>
 		<div class="slide">
-			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-empresas/iconos_200x200-08.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
+			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/logos-empresas/iconos_200x200-08.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
 		</div>
         <div class="slide">
-			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-empresas/iconos_200x200-09.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
+			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/logos-empresas/iconos_200x200-09.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
 		</div>
         <div class="slide">
-			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-empresas/iconos_200x200-01.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
+			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/logos-empresas/iconos_200x200-01.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
 		</div>
         <div class="slide">
-			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-empresas/iconos_200x200-02.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
+			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/logos-empresas/iconos_200x200-02.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
 		</div>
         <div class="slide">
-			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-empresas/iconos_200x200-03.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
+			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/logos-empresas/iconos_200x200-03.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
 		</div>
         <div class="slide">
-			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-empresas/iconos_200x200-04.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
+			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/logos-empresas/iconos_200x200-04.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">
 		</div>
 		<div class="slide">
 			<img src="https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/logos-empresas/iconos_200x200-05.svg" alt="Logos empresas" class="img-fluid rounded shadow-lg">

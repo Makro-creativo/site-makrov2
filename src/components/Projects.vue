@@ -101,7 +101,8 @@ export default {
                 { title: 'Black Jack Design', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/logos-marcas/logos-18.svg', category: 'MARCAS' },
                 { title: 'Artejido', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/logos-marcas/logos-19.svg', category: 'MARCAS' },
                 { title: 'Internet mx', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/portfolio-images/internetmx.svg', category: 'PÁGINAS WEB', url: 'https://internetmx.com.mx/' },
-                { title: 'Zabinafash', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/portfolio-images/portafolio_pagina_web17.svg', category: 'PÁGINAS WEB', url: 'https://zabinabash.com/' },
+                { title: 'Equiparsa', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/portfolio-images/portafolio_pagina_web17.svg', category: 'PÁGINAS WEB', url: 'https://equiparsa.com/' },
+                { title: 'Joyeriaaurum', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/portfolio-images/portafolio_pagina_web18.svg', category: 'ECOMMERCE', url: 'https://joyeriaaurum.com/' },
             ],
         }
     },
