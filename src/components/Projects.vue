@@ -103,6 +103,8 @@ export default {
                 { title: 'Internet mx', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/portfolio-images/internetmx.svg', category: 'PÁGINAS WEB', url: 'https://internetmx.com.mx/' },
                 { title: 'Equiparsa', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/portfolio-images/portafolio_pagina_web17.svg', category: 'PÁGINAS WEB', url: 'https://equiparsa.com/' },
                 { title: 'Joyeriaaurum', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/portfolio-images/portafolio_pagina_web18.svg', category: 'ECOMMERCE', url: 'https://joyeriaaurum.com/' },
+                { title: 'BioAgrosel', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_agrosel.jpg', category: 'PÁGINAS WEB', url: 'https://bioagrosel.com/' },
+
             ],
         }
     },

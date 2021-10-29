@@ -56,7 +56,7 @@
                                       </li>
                                   </ul>
 
-                                  <a href="#" class="btn btn-outline-primary btn-lg mt-4 shadow">Reserva una consulta</a>
+                                  <a href="https://sismakro.makrocreativo.com/sismakro/login-clients.php" target="_blank" class="btn btn-outline-primary btn-lg mt-4 shadow">Reserva una consulta</a>
                               </div>
 
                               <div class="col-md-5 col-sm-12 col-lg-5 col-xl-5 col-xxl-5">
