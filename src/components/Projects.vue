@@ -26,6 +26,7 @@
             <span class="filter" :class="{ active: currentFilter === 'ECOMMERCE' }" @click="setFilterCategory('ECOMMERCE')">ECOMMERCE</span>
             <span class="filter" :class="{ active: currentFilter === 'PÁGINAS WEB' }" @click="setFilterCategory('PÁGINAS WEB')">PÁGINAS WEB</span>
             <span class="filter" :class="{ active: currentFilter === 'MARCAS' }" @click="setFilterCategory('MARCAS')">MARCAS</span>
+            <span class="filter" :class="{ active: currentFilter === 'ERP' }" @click="setFilterCategory('ERP')">ERP</span>
         </div>
 
         <div class="container">
@@ -104,6 +105,9 @@ export default {
                 { title: 'Equiparsa', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/portfolio-images/portafolio_pagina_web17.svg', category: 'PÁGINAS WEB', url: 'https://equiparsa.com/' },
                 { title: 'Joyeriaaurum', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/portfolio-images/portafolio_pagina_web18.svg', category: 'ECOMMERCE', url: 'https://joyeriaaurum.com/' },
                 { title: 'BioAgrosel', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_agrosel.jpg', category: 'PÁGINAS WEB', url: 'https://bioagrosel.com/' },
+                { title: 'Página de Aviso sin conexión InternetMX', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_noviembre-02.svg', category: 'PÁGINAS WEB', url: 'https://sin-conexion.internetmx.com.mx/' },
+                { title: 'ERP Makro Creativo', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_noviembre-03.svg', category: 'ERP', url: 'https://sismakro.makrocreativo.com/sismakro/' },
+                { title: 'ERP InternetMX', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_noviembre.svg', category: 'ERP', url: 'https://internetmxsis.internetmx.com.mx/' },
 
             ],
         }
