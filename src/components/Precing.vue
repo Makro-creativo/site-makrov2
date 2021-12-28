@@ -112,7 +112,7 @@
                             <span class="d-block">
                                 <span class="display-5 text-dark fw-bold">
                                     <span class="align-top font-medium">$</span>
-                                    11,500
+                                    14,900
                                 </span>
 
                                 <span class="d-block text-gray font-small">
@@ -176,7 +176,7 @@
                                 <div class="ribbon">Más popular</div>
                                 <span class="display-5 text-dark fw-bold">
                                     <span class="align-top font-medium">$</span>
-                                    17,900
+                                    22,000
                                 </span>
 
                                 <span class="d-block text-gray font-small">
