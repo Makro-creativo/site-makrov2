@@ -109,6 +109,7 @@ export default {
                 { title: 'ERP Makro Creativo', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_noviembre-03.svg', category: 'ERP', url: 'https://sismakro.makrocreativo.com/sismakro/' },
                 { title: 'ERP InternetMX', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_noviembre.svg', category: 'ERP', url: 'https://internetmxsis.internetmx.com.mx/' },
                 { title: 'LexyMas', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_20.jpg', category: 'PÁGINAS WEB', url: 'http://www.lexymas.com.mx/' },
+                { title: 'Agritec', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_21.svg', category: 'PÁGINAS WEB', url: 'http://www.agritec.com.mx/' },
                 { title: 'ERP Tortillería la Esperanza', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_20-02.svg', category: 'ERP', url: 'https://tortilleriaesperanzasis.laesperanzatortilleria.com/esperanzasis/login.php' },
             ],
         }
