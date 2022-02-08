@@ -1,5 +1,5 @@
 <template>
-  <div id="home">
+  <div id="home" class="filter-blur">
       <section class="section-header py-7 d-flex">
           <div class="container align-self-center">
               <div class="row">
@@ -13,6 +13,7 @@
                                             <h1 class="process-step-title">
                                                 Impulso para crecer.
                                             </h1>
+
                                             <div class="process-step-title-overlay">
                                                 Impulso para crecer.
                                             </div>
@@ -36,6 +37,7 @@
                           
                       </div>
                   </div>
+                
                 
                   <div class="col-lg-5">
                     <img src="../assets/img/header-image.svg" alt="Header image" class="img-fluid mb-3">
