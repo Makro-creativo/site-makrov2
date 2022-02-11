@@ -31,10 +31,9 @@
                           <hr class="hr-title">
 
                           <button type="button" class="btn btn-dark mt-4 shadow lift me-1" data-bs-toggle="modal" data-bs-target="#video-modal">
-                             <i class="icon ion-md-play lead mr-3"></i>
-                              Ve nuestro video
+                            <i class="icon ion-md-play lead mr-3"></i>
+                            Ve nuestro video
                           </button>
-                          
                       </div>
                   </div>
                 
@@ -182,5 +181,4 @@ export default {
     .ion-md-videocam {
         font-size: 20px;
     }
-            
 </style>
