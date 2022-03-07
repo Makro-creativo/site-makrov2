@@ -112,6 +112,7 @@ export default {
                 { title: 'Agritec', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_21.svg', category: 'PÁGINAS WEB', url: 'http://www.agritec.com.mx/' },
                 { title: 'ERP Tortillería la Esperanza', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_20-02.svg', category: 'ERP', url: 'https://tortilleriaesperanzasis.laesperanzatortilleria.com/esperanzasis/login.php' },
                 { title: 'Guzvar', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/guzvar.svg', category: 'ECOMMERCE', url: 'https://www.guzvar.com/' },
+                { title: 'Feyplos', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_feyplos.svg', category: 'ECOMMERCE', url: 'https://feyplos.com/' },
             ],
         }
     },
