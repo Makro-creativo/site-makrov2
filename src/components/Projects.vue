@@ -115,6 +115,7 @@ export default {
                 { title: 'Feyplos', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_feyplos.svg', category: 'ECOMMERCE', url: 'https://feyplos.com/' },
                 { title: 'Nutremi', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_nutremi.svg', category: 'ECOMMERCE', url: 'http://www.nutremi.com/' },
                 { title: 'ERP Medical Sys', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/inicio_sesion.svg', category: 'ERP', url: 'http://medicalsistem.makrocreativo.com/' },
+                { title: 'Tienda Mercado Libre Guzvar', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/tienda_guzvar_portafolio_pagina_web.svg', category: 'PÁGINAS WEB', url: 'https://www.tienda.guzvar.com/' },
             ],
         }
     },
