@@ -117,6 +117,7 @@ export default {
                 { title: 'ERP Medical Sys', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/inicio_sesion.svg', category: 'ERP', url: 'http://medicalsistem.makrocreativo.com/' },
                 { title: 'Tienda Mercado Libre Guzvar', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/tienda_guzvar_portafolio_pagina_web.svg', category: 'ECOMMERCE', url: 'https://www.tienda.guzvar.com/' },
                 { title: 'Tienda Mercado Libre Nutremi', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_tienda_nutremi.svg', category: 'ECOMMERCE', url: 'https://www.tienda.nutremi.com/' },
+                { title: 'ERP Erupción', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/erupcion_portafolio_pagina_web.svg', category: 'ERP', url: 'https://eruptionsprayer.com/' },
             ],
         }
     },
