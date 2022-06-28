@@ -77,7 +77,7 @@ export default {
                 { title: 'Marca Méxicana', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/portfolio-images/portafolio_pagina_web-08.svg', category: 'ECOMMERCE', url: 'https://marcasmexicanas.com.mx/' },
                 { title: 'Ferretería Eben Ezer', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/portfolio-images/portafolio_pagina_web-09.svg', category: 'ECOMMERCE', url: 'https://ferreteriaeben-ezer.com/' },
                 { title: 'Remmex', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/portfolio-images/portafolio_pagina_web-10.svg', category: 'ECOMMERCE', url: 'https://remmex.com.mx/' },
-                { title: 'Grupo Montellano', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/portfolio-images/portafolio_pagina_web-11.svg', category: 'PÁGINAS WEB', url: 'https://grupomontellano.com/' },
+                { title: 'Grupo Montellano', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/portfolio-images/portafolio_pagina_web-11.svg', category: 'PÁGINAS WEB', url: 'https://grupomontellano.com.mx/' },
                 { title: 'lisports', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/portfolio-images/portafolio_pagina_web-12.svg', category: 'ECOMMERCE', url: 'https://lisports.com.mx/' },
                 { title: 'Metales Barajas', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/portfolio-images/portafolio_pagina_web-13.svg', category: 'PÁGINAS WEB', url: 'http://metalesbarajas.mx/' },
                 { title: 'Tortillería la Esperanza', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/potafolio_web/portfolio-images/la-esperanza.svg', category: 'LANDING', url: 'https://laesperanzatortilleria.com/' },
@@ -119,6 +119,7 @@ export default {
                 { title: 'Tienda Mercado Libre Nutremi', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/portafolio_pagina_web_tienda_nutremi.svg', category: 'ECOMMERCE', url: 'https://www.tienda.nutremi.com/' },
                 { title: 'ERP Erupción', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/erupcion_portafolio_pagina_web.svg', category: 'ERP', url: 'https://eruptionsprayer.com/' },
                 { title: 'Aleina', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/aleina.svg', category: 'PÁGINAS WEB', url: 'https://www.aleina.com.mx/' },
+                { title: 'Shofer', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/mishofer_pagina_web.svg', category: 'ERP', url: 'https://mishofer.com/' },
             ],
         }
     },
