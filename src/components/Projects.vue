@@ -120,6 +120,7 @@ export default {
                 { title: 'ERP Erupción', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/erupcion_portafolio_pagina_web.svg', category: 'ERP', url: 'https://eruptionsprayer.com/' },
                 { title: 'Aleina', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/aleina.svg', category: 'PÁGINAS WEB', url: 'https://www.aleina.com.mx/' },
                 { title: 'Shofer', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/mishofer_pagina_web.svg', category: 'ERP', url: 'https://mishofer.com/' },
+                { title: 'Muur', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/murr_pagina_web.svg', category: 'PÁGINAS WEB', url: 'https://partesparamotormurr.com/' },
             ],
         }
     },
