@@ -122,6 +122,8 @@ export default {
                 { title: 'Shofer', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/mishofer_pagina_web.svg', category: 'ERP', url: 'https://mishofer.com/' },
                 { title: 'Muur', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/murr_pagina_web.svg', category: 'PÁGINAS WEB', url: 'https://partesparamotormurr.com/' },
                 { title: 'Licores de Jalisco', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/licores_de_jalisco.svg', category: 'PÁGINAS WEB', url: 'https://licoresdejalisco.com/' },
+                { title: 'ERP Viveros Quezada', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/viveros.svg', category: 'ERP', url: 'https://viverosquezada.makrocreativo.com/viverosSys/' },
+                { title: 'Potreros Azul', image: 'https://cdn.jsdelivr.net/gh/PaulMaldonado/img-web/portfolio-images/potreros.svg', category: 'PÁGINAS WEB', url: 'https://potrerosazul.com/' },
             ],
         }
     },
